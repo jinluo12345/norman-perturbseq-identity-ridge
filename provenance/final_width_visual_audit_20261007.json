@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-07",
-  "pdf_sha256": "0a64af7d97c670655644934c6238a14767d06ca6c3a29c53c913c519664e4b05",
+  "date": "2026-10-08",
+  "pdf_sha256": "8bc27fb8dd90d8d6407ced1580b559e607495cc83d5a633ce73f5808bfb0df29",
   "pages": 22,
   "render_dpi": 110,
   "status": "pass",
@@ -8,18 +8,22 @@
     "page-12",
     "page-13",
     "page-14",
+    "page-19",
     "page-22"
   ],
   "rendered_files": [
-    ".audit_current_20261007_v2/page-12.png",
-    ".audit_current_20261007_v2/page-13.png",
-    ".audit_current_20261007_v2/page-14.png",
-    ".audit_current_20261007_v2/page-22.png"
+    ".audit_current_20261008/page-12.png",
+    ".audit_current_20261008/page-13.png",
+    ".audit_current_20261008/page-14.png",
+    ".audit_current_20261008/page-19.png",
+    ".audit_current_20261008/page-22.png"
   ],
   "observations": [
-    "Current 22-page PDF rendered at final-width scale; pages 12, 13, 14 and 22 inspected directly.",
+    "Current 22-page PDF rendered at final-width scale; pages 12, 13, 14, 19 and 22 inspected directly.",
     "Figure 6 on page 12 retains readable axes, legends, panel labels, table and caption with no clipping.",
     "The corrected matched nonlinear comparator text on page 13 and the 30-row Supplementary Table 4 on page 14 are readable at final-width scale; columns and parameter counts are visible.",
-    "Page 22 bibliography has no clipping or missing glyphs. No page clipping, stale figure source, or unreadable quantitative panel was observed in the sampled pages."
+    "Page 22 bibliography has no clipping or missing glyphs. No page clipping, stale figure source, or unreadable quantitative panel was observed in the sampled pages.",
+    "v1.1.7 rebuild changes only the public archive URL text; all quantitative panels and sampled pages remain unchanged.",
+    "Data/code availability links on page 19 point to v1.1.7 and remain readable without clipping."
   ]
 }

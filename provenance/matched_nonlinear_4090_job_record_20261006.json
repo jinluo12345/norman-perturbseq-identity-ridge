@@ -1,7 +1,7 @@
 {
   "name": "idea036-matched-nonlinear-corrected-val-4090-20261006",
   "job_id": "job-eafeb017-4f21-40be-b7ce-d032889e3c39",
-  "status": "job_queuing",
+  "status": "success",
   "workspace": "ws-6040202d-b785-4b37-98b0-c68d65dd52ce",
   "project": "project-f277dd4c-fa6b-4908-b75c-4416a0407a3d",
   "compute_group": "lcg-9313dcbc-ad1e-4a90-b3f7-cd3c65a16152",
@@ -15,5 +15,8 @@
   "log": "qzcli logs job-eafeb017-4f21-40be-b7ce-d032889e3c39",
   "events": "qzcli events job-eafeb017-4f21-40be-b7ce-d032889e3c39",
   "submission": "experiments/qz_matched_corrected_4090_submit.json",
-  "last_poll_utc": "2026-10-06T22:59:13Z"
+  "last_poll_utc": "2026-10-06T22:59:13Z",
+  "finished_utc": "2026-10-06T16:05:54",
+  "last_status_check_utc": "2026-10-07T00:16:00Z",
+  "status_source": "qzcli status job-eafeb017-4f21-40be-b7ce-d032889e3c39"
 }

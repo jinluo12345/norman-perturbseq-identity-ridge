@@ -1,0 +1,32 @@
+\begin{table}[ht]\centering\scriptsize\caption{Supplementary Table 4. Validation-only matched nonlinear comparator under the frozen 878-input, 512-target contract. Each row is one identity split and optimization seed; no confirmation responses were scored. Values are cell-level validation metrics after raw-RMSE checkpoint selection.}\label{tab:matched_nonlinear}\begin{tabular}{rrlrrrrr}\toprule Split & Train seed & Family & RMSE & Pearson & Spearman & Best epoch & Parameters \\ \midrule
+11 & 101 & mlp & 0.31971 & 0.15456 & 0.11223 & 62 & 422,400 \\
+11 & 202 & mlp & 0.31974 & 0.15409 & 0.11277 & 61 & 422,400 \\
+11 & 303 & mlp & 0.31974 & 0.15440 & 0.11132 & 60 & 422,400 \\
+11 & 101 & mlp linear skip & 0.32002 & 0.15194 & 0.10694 & 52 & 871,936 \\
+11 & 202 & mlp linear skip & 0.32007 & 0.15146 & 0.10606 & 52 & 871,936 \\
+11 & 303 & mlp linear skip & 0.32004 & 0.15210 & 0.10691 & 49 & 871,936 \\
+22 & 101 & mlp & 0.32230 & 0.14877 & 0.11519 & 63 & 422,400 \\
+22 & 202 & mlp & 0.32223 & 0.15004 & 0.11858 & 61 & 422,400 \\
+22 & 303 & mlp & 0.32218 & 0.15036 & 0.11592 & 61 & 422,400 \\
+22 & 101 & mlp linear skip & 0.32268 & 0.14629 & 0.11111 & 48 & 871,936 \\
+22 & 202 & mlp linear skip & 0.32255 & 0.14776 & 0.11270 & 47 & 871,936 \\
+22 & 303 & mlp linear skip & 0.32253 & 0.14805 & 0.11196 & 57 & 871,936 \\
+33 & 101 & mlp & 0.32295 & 0.16250 & 0.12101 & 66 & 422,400 \\
+33 & 202 & mlp & 0.32300 & 0.16186 & 0.12147 & 66 & 422,400 \\
+33 & 303 & mlp & 0.32298 & 0.16220 & 0.12024 & 67 & 422,400 \\
+33 & 101 & mlp linear skip & 0.32321 & 0.15920 & 0.11449 & 55 & 871,936 \\
+33 & 202 & mlp linear skip & 0.32321 & 0.15946 & 0.11473 & 55 & 871,936 \\
+33 & 303 & mlp linear skip & 0.32320 & 0.15922 & 0.11518 & 54 & 871,936 \\
+44 & 101 & mlp & 0.32049 & 0.15928 & 0.11522 & 59 & 422,400 \\
+44 & 202 & mlp & 0.32054 & 0.15887 & 0.11637 & 59 & 422,400 \\
+44 & 303 & mlp & 0.32050 & 0.15899 & 0.11567 & 59 & 422,400 \\
+44 & 101 & mlp linear skip & 0.32070 & 0.15792 & 0.11387 & 50 & 871,936 \\
+44 & 202 & mlp linear skip & 0.32076 & 0.15726 & 0.11363 & 51 & 871,936 \\
+44 & 303 & mlp linear skip & 0.32072 & 0.15770 & 0.11487 & 52 & 871,936 \\
+55 & 101 & mlp & 0.32945 & 0.17527 & 0.13231 & 67 & 422,400 \\
+55 & 202 & mlp & 0.32959 & 0.17277 & 0.13056 & 58 & 422,400 \\
+55 & 303 & mlp & 0.32949 & 0.17442 & 0.13001 & 61 & 422,400 \\
+55 & 101 & mlp linear skip & 0.32980 & 0.17172 & 0.12568 & 60 & 871,936 \\
+55 & 202 & mlp linear skip & 0.32971 & 0.17207 & 0.12428 & 46 & 871,936 \\
+55 & 303 & mlp linear skip & 0.32968 & 0.17260 & 0.12484 & 50 & 871,936 \\
+\bottomrule\end{tabular}\end{table}
