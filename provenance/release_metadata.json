@@ -1,7 +1,7 @@
 {
   "release_name": "norman-perturbseq-identity-ridge",
-  "release_version": "v1.0.0",
-  "release_date": "2026-10-06",
+  "release_version": "v1.1.2",
+  "release_date": "2026-10-07",
   "primary_source": {
     "study": "Norman-Weissman K562 Perturb-seq",
     "geo_accession": "GSE133344",
@@ -14,5 +14,5 @@
   "license_code": "MIT",
   "license_derived": "CC BY 4.0",
   "archive_url": "https://github.com/jinluo12345/norman-perturbseq-identity-ridge",
-  "version_commit": "immutable Git tag v1.0.0"
+  "version_commit": "immutable Git tag v1.1.2"
 }
