@@ -5,11 +5,11 @@
   "paper": {
     "tex": {
       "path": "paper/main.tex",
-      "sha256": "04e49a5ea2fda3a0a9752f04e000298a05959ceb9be98b11a053c0dc1a42f7ad"
+      "sha256": "29703bd0f3c5a211987c578e74276ee14ae6a57ab96a3a9faa32f85bf5b81703"
     },
     "pdf": {
       "path": "paper/main.pdf",
-      "sha256": "b81273d0b3b97f34f89eae4deb1029fd4fee25f1b58267b33a7d60c468743d09",
+      "sha256": "7217eb928b3717d31a8755fa1693274952adb6c6bf4e811dd21ad4e0d2d70771",
       "pages": 22
     }
   },
@@ -102,8 +102,8 @@
     "experiments/final_visual_audit_round10.json",
     "experiments/release_readme_followup_20261008.md"
   ],
-  "release_tag": "v1.1.8",
-  "release_url": "https://github.com/jinluo12345/norman-perturbseq-identity-ridge/releases/tag/v1.1.8",
+  "release_tag": "v1.1.9",
+  "release_url": "https://github.com/jinluo12345/norman-perturbseq-identity-ridge/releases/tag/v1.1.9",
   "scripts": {
     "matched_nonlinear_validation": "src/matched_nonlinear_validation_corrected.py",
     "matched_nonlinear_summary": "src/summarize_matched_nonlinear_validation.py",
