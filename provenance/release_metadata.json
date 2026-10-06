@@ -6,8 +6,8 @@
     "study": "Norman-Weissman K562 Perturb-seq",
     "geo_accession": "GSE133344",
     "geo_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE133344",
-    "doi": "10.1038/s41586-019-1431-3",
-    "doi_url": "https://doi.org/10.1038/s41586-019-1431-3"
+    "doi": "10.1126/science.aax4438",
+    "doi_url": "https://doi.org/10.1126/science.aax4438"
   },
   "estimand": "Identity-held-out prediction of a 512-gene control-relative response conditional on observed Norman gemgroup metadata",
   "derived_input_policy": "Raw h5ad files are not duplicated; frozen processed arrays and source checksums are included",

@@ -6,7 +6,7 @@ The scientific estimand is deliberately bounded: identity-held-out prediction of
 
 ## Source data
 
-The primary public source is the Norman–Weissman Perturb-seq study, GEO accession **GSE133344** ([GEO record](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE133344); study DOI [10.1038/s41586-019-1431-3](https://doi.org/10.1038/s41586-019-1431-3)). Raw h5ad files are intentionally not duplicated here. `data/processed/input_checksums.json` records the source-file checksums used to produce the released processed panel. Reactome pathway annotations are identified in `data/processed/metadata.json` and `provenance/panel_manifest.json`.
+The primary public source is the Norman–Weissman Perturb-seq study, GEO accession **GSE133344** ([GEO record](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE133344); study DOI [10.1126/science.aax4438](https://doi.org/10.1126/science.aax4438)). Raw h5ad files are intentionally not duplicated here. `data/processed/input_checksums.json` records the source-file checksums used to produce the released processed panel. Reactome pathway annotations are identified in `data/processed/metadata.json` and `provenance/panel_manifest.json`.
 
 ## Contents
 
