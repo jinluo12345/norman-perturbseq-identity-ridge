@@ -1,6 +1,6 @@
 {
   "release": "https://github.com/jinluo12345/norman-perturbseq-identity-ridge/tree/v1.0.0",
-  "public_archive_ready": true,
+  "public_archive_ready": false,
   "release_scope": [
     "exact analysis source",
     "frozen processed inputs",
@@ -21,11 +21,14 @@
   "latex_log_clean": true,
   "derived_data_policy": "Raw h5ad files are referenced by accession and source checksums; processed arrays are included in the release.",
   "release_manifest": "public_release/provenance/release_manifest.sha256",
-  "status": "PASS",
+  "status": "superseded_historical_audit",
   "archive_tag": "v1.0.0",
   "code_commit": "be1447a73d3ead492acbf15f95a38c8cbf80a8f3",
   "native_image2_assets": [
     "figures/Fig1_model_mechanism_round4.png",
     "figures/Fig5_A_identity_cluster_concept_v4.png"
-  ]
+  ],
+  "superseded_by": "current_artifact_manifest_20261007.json",
+  "strict_current_artifact": false,
+  "historical_artifact_note": "Retained for provenance only; do not use as current v1.1.8 release evidence."
 }

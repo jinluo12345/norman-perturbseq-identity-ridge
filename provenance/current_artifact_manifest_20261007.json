@@ -5,11 +5,11 @@
   "paper": {
     "tex": {
       "path": "paper/main.tex",
-      "sha256": "837f6072b0b323d4ffbd3130e446a7c4b6c89a1ca0d8a70d28e9f8aca88b3c91"
+      "sha256": "04e49a5ea2fda3a0a9752f04e000298a05959ceb9be98b11a053c0dc1a42f7ad"
     },
     "pdf": {
       "path": "paper/main.pdf",
-      "sha256": "8bc27fb8dd90d8d6407ced1580b559e607495cc83d5a633ce73f5808bfb0df29",
+      "sha256": "b81273d0b3b97f34f89eae4deb1029fd4fee25f1b58267b33a7d60c468743d09",
       "pages": 22
     }
   },
@@ -99,10 +99,11 @@
     "experiments/final_pre_reviewer_check_20261006.json",
     "experiments/final_pre_reviewer_check_round10.json",
     "experiments/figure_source_audit_round10.json",
-    "experiments/final_visual_audit_round10.json"
+    "experiments/final_visual_audit_round10.json",
+    "experiments/release_readme_followup_20261008.md"
   ],
-  "release_tag": "v1.1.7",
-  "release_url": "https://github.com/jinluo12345/norman-perturbseq-identity-ridge/releases/tag/v1.1.7",
+  "release_tag": "v1.1.8",
+  "release_url": "https://github.com/jinluo12345/norman-perturbseq-identity-ridge/releases/tag/v1.1.8",
   "scripts": {
     "matched_nonlinear_validation": "src/matched_nonlinear_validation_corrected.py",
     "matched_nonlinear_summary": "src/summarize_matched_nonlinear_validation.py",

@@ -54,5 +54,10 @@
     "current_abstract_196_words": true,
     "session_done": false
   },
-  "notes": "Replaces stale visual audits whose page/figure counts referred to earlier PDFs. Current artifact is the 21-page b699f18a PDF; Figure 6 is included and Figure 1 is the round4 native image2 PNG used by main.tex."
+  "notes": "Replaces stale visual audits whose page/figure counts referred to earlier PDFs. Current artifact is the 21-page b699f18a PDF; Figure 6 is included and Figure 1 is the round4 native image2 PNG used by main.tex.",
+  "status": "superseded_historical_audit",
+  "superseded_by": "current_artifact_manifest_20261007.json",
+  "strict_current_artifact": false,
+  "public_archive_ready": false,
+  "historical_artifact_note": "Retained for provenance only; do not use as current v1.1.8 release evidence."
 }

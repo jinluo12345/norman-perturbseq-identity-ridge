@@ -1,6 +1,6 @@
 {
   "date": "2026-10-08",
-  "pdf_sha256": "8bc27fb8dd90d8d6407ced1580b559e607495cc83d5a633ce73f5808bfb0df29",
+  "pdf_sha256": "b81273d0b3b97f34f89eae4deb1029fd4fee25f1b58267b33a7d60c468743d09",
   "pages": 22,
   "render_dpi": 110,
   "status": "pass",
@@ -23,7 +23,7 @@
     "Figure 6 on page 12 retains readable axes, legends, panel labels, table and caption with no clipping.",
     "The corrected matched nonlinear comparator text on page 13 and the 30-row Supplementary Table 4 on page 14 are readable at final-width scale; columns and parameter counts are visible.",
     "Page 22 bibliography has no clipping or missing glyphs. No page clipping, stale figure source, or unreadable quantitative panel was observed in the sampled pages.",
-    "v1.1.7 rebuild changes only the public archive URL text; all quantitative panels and sampled pages remain unchanged.",
-    "Data/code availability links on page 19 point to v1.1.7 and remain readable without clipping."
+    "Data/code availability links on page 19 point to v1.1.8 and remain readable without clipping.",
+    "v1.1.8 rebuild changes only the public archive URL text; all quantitative panels and sampled pages remain unchanged."
   ]
 }

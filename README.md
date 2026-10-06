@@ -28,19 +28,19 @@ python src/plot_fig2_repaired_performance.py
 python src/plot_fig3_repaired.py
 python src/plot_fig4_repaired_ablation.py
 python src/plot_fig5_repaired_upgrade.py
-python src/plot_intervention_priority.py
+python src/plot_intervention_priority_locked.py
 ```
 
 The scripts read only the released `results/` objects and the native image2 panel in `figures/`. Rebuilding the complete processed panel from raw h5ad requires the public GSE133344 source and the preprocessing contract documented in `manuscript/main.tex`; the released processed arrays are the frozen inputs used for the reported analysis.
 
 The manuscript is compiled from `manuscript/main.tex` after placing the released figures under the relative paths expected by the source. The release audits record the PDF hash and figure/source checksums.
 
-The versioned archive URL for this release is https://github.com/jinluo12345/norman-perturbseq-identity-ridge/tree/v1.1.7. The repository commit history and `provenance/release_manifest.sha256` provide the immutable version and file-integrity record.
+The versioned archive URL for this release is https://github.com/jinluo12345/norman-perturbseq-identity-ridge/tree/v1.1.8. The repository commit history and `provenance/release_manifest.sha256` provide the immutable version and file-integrity record.
 
 ## License and citation
 
 Code is released under the MIT License; derived arrays, figures and manuscript text are released under CC BY 4.0. Please cite the manuscript and the Norman–Weissman source study when reusing this release.
 
-## v1.1.7 corrected validation release
+## v1.1.8 corrected validation and provenance release
 
-This release supersedes v1.1.6 and contains the 22-page manuscript, locked 27-combination evaluation, and corrected validation-only matched nonlinear comparator. The standard MLP comparator uses the exact 878-input/512-target contract but fails the all-split gate; it is retained as a validation diagnostic, not a confirmation claim. The displayed priority error bars are split standard deviations; paired identity-cluster B=2,000 sensitivity intervals and common draw hashes are in `results/intervention_priority_bootstrap_supplement.json`. Historical audit records are retained for provenance and explicitly superseded by `provenance/current_artifact_manifest_20261007.json`.
+This release supersedes v1.1.7 and contains the 22-page manuscript, locked 27-combination evaluation, and corrected validation-only matched nonlinear comparator. The standard MLP comparator uses the exact 878-input/512-target contract but fails the all-split gate; it is retained as a validation diagnostic, not a confirmation claim. The displayed priority error bars are split standard deviations; paired identity-cluster B=2,000 sensitivity intervals and common draw hashes are in `results/intervention_priority_bootstrap_supplement.json`. Historical audit records are retained for provenance and explicitly superseded by `provenance/current_artifact_manifest_20261007.json`.

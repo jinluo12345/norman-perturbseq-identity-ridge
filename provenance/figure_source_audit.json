@@ -1,7 +1,7 @@
 {
   "audit_date": "2026-10-06",
   "audit_round": "round10-final-current-artifact",
-  "strict_current_artifact": true,
+  "strict_current_artifact": false,
   "quantitative_figures": {
     "Figure2": {
       "plot_script": "src/plot_fig2_repaired_performance.py",
@@ -77,5 +77,9 @@
     "no_simulated_values_in_final_figures": true,
     "current_pdf_figure_count": 6,
     "current_pdf_sha256": "b699f18a30c86c7bf51d01aa0334480dc45dcbdfaa1f3c1545530f47a5b1fb68"
-  }
+  },
+  "status": "superseded_historical_audit",
+  "superseded_by": "current_artifact_manifest_20261007.json",
+  "public_archive_ready": false,
+  "historical_artifact_note": "Retained for provenance only; do not use as current v1.1.8 release evidence."
 }

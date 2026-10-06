@@ -2,7 +2,7 @@
 
 This directory records the public release metadata for the Norman–Weissman
 Perturb-seq analysis. The versioned archive is
-https://github.com/jinluo12345/norman-perturbseq-identity-ridge/tree/v1.1.7.
+https://github.com/jinluo12345/norman-perturbseq-identity-ridge/tree/v1.1.8.
 
 The source experiment is identified by `../data/processed/input_checksums.json`
 and GEO accession GSE133344. `panel_manifest.json` records the 512 output genes,

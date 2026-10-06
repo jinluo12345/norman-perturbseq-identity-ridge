@@ -70,5 +70,10 @@
   "pdf_font_embedding": "PASS",
   "caption_panel_mapping": "PASS",
   "session_done_allowed": false,
-  "reason_session_done_allowed_false": "A fresh independent external reviewer decision is still pending."
+  "reason_session_done_allowed_false": "A fresh independent external reviewer decision is still pending.",
+  "status": "superseded_historical_audit",
+  "superseded_by": "current_artifact_manifest_20261007.json",
+  "strict_current_artifact": false,
+  "public_archive_ready": false,
+  "historical_artifact_note": "Retained for provenance only; do not use as current v1.1.8 release evidence."
 }
