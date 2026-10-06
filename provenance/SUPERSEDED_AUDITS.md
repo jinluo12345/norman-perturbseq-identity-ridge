@@ -1,0 +1,1 @@
+Older provenance audits from v1.0.0 are retained in git history only. The authoritative manifest for this release is current_artifact_manifest_20261007.json; it covers the locked 27-combination priority result and the rebuilt PDF.

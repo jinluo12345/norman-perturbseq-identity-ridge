@@ -1,0 +1,83 @@
+{
+  "status": "current_authoritative_manifest",
+  "date": "2026-10-07",
+  "scope": "Norman-Weissman K562 single-screen observed-gemgroup identity-held-out ridge and locked retrospective priority",
+  "paper": {
+    "tex": {
+      "path": "paper/main.tex",
+      "sha256": "80e64a796fbbfd9cf56d559b1ef1b2bf556813e7d29d04354fc3354f05dd1a45"
+    },
+    "pdf": {
+      "path": "paper/main.pdf",
+      "sha256": "b8cdcf09af14c8fac6f1eb5bf99c50431c1a7b0c6c2da5b17235b0ee24a1de5b",
+      "pages": 21
+    }
+  },
+  "results": {
+    "primary": {
+      "path": "results/repaired_split_local_controls.json",
+      "sha256": "22ccbc703f491bbf48709a1968a3a96701528cfa815809aa991fc9c6316060d9"
+    },
+    "factorial": {
+      "path": "results/repaired_2x2_factorial.json",
+      "sha256": "cfbbda9b337f56ea6be3fff7adae0884c750b7c28be309da1ff24fd14b518e2b"
+    },
+    "priority_locked": {
+      "path": "results/intervention_priority_locked_evaluation.json",
+      "sha256": "361c05ff9b595ca4a6e4fe2ad733cff8d75066edbdd6e60d93a39527cbf4e651"
+    },
+    "priority_bootstrap_supplement": {
+      "path": "results/intervention_priority_bootstrap_supplement.json",
+      "sha256": "ba6cd58e06d65f8e70f8b510108c43b2b18368fba8830f7e3c97eaef526fe034"
+    }
+  },
+  "figures": [
+    {
+      "path": "paper/figures_batch/Fig1_cell_batch_overview.pdf",
+      "sha256": "f7f9ae6a9d5b8c2d1e909ed12ba7a7c634e16290f63cf88ae6d282efa06d4358"
+    },
+    {
+      "path": "paper/figures_batch/Fig2_cell_batch_repaired_performance.pdf",
+      "sha256": "158156297fda678964382f5fb0899b185993265bb1b1786be569655a8f157169"
+    },
+    {
+      "path": "paper/figures_batch/Fig3_cell_batch_strata.pdf",
+      "sha256": "480b850f1500b4e7ed326a37546cce4c96287033f187e31670209d2988262f20"
+    },
+    {
+      "path": "paper/figures_batch/Fig4_cell_batch_ablation_repaired.pdf",
+      "sha256": "8692bbd3f8fb8c261097679cede801fd7e4052c7f7a17bcf8b516c7996353d43"
+    },
+    {
+      "path": "paper/figures_batch/Fig5_identity_cluster_uncertainty_repaired.pdf",
+      "sha256": "c5b0798edb97c233f8d7899e95926fec5fa50f255264bd8905c3a948266d1f62"
+    },
+    {
+      "path": "paper/figures_batch/Fig6_intervention_priority.pdf",
+      "sha256": "16a396775433fa1931de1aed586fc2e9c02d84d96c1206a787c8c7970c7fb1f3"
+    }
+  ],
+  "image2": [
+    {
+      "path": "figures/ai_generated/Fig1_model_mechanism_round4.png",
+      "sha256": "072dae166e69d5a099a921278089f574ee74c0d93cf8a94bf6c411e12a6b8b85",
+      "provenance": "experiments/image2_fig1_generation_20261006_round4.json"
+    },
+    {
+      "path": "figures/ai_generated/Fig5_A_identity_cluster_concept_v4_upsampled.png",
+      "sha256": "c70f91878db62bab9c2af72c3e739ecce88cf63ad4a0d226d3a32a1b5b8073c6",
+      "provenance": "experiments/image2_Fig5_A_generation_20261006_v4.jsonl"
+    }
+  ],
+  "audits": {
+    "width_visual": "experiments/final_width_visual_audit_20261007.json",
+    "matched_nonlinear": "experiments/matched_nonlinear_invalid_implementation_audit.json",
+    "corrected_protocol": "experiments/matched_nonlinear_corrected_protocol_20261007.md"
+  },
+  "supersedes": [
+    "experiments/figure_source_audit.json",
+    "experiments/final_round10_audit.json",
+    "experiments/final_pre_reviewer_check.json",
+    "experiments/post_correction_audit_20261007.json"
+  ]
+}

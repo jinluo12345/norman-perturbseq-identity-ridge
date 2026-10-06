@@ -1,0 +1,8 @@
+{
+ "status":"invalid_implementation_audit_not_scientific_comparison",
+ "retained_original_validation":"results/matched_nonlinear_validation.json",
+ "retained_original_confirmation":"results/matched_nonlinear_locked_confirmation.json",
+ "issues":["Validation optimized scaled output MSE rather than raw cell RMSE","Validation recorded final stopping epoch, not best checkpoint epoch","Training-constant columns produced 1000x unsupported neural extrapolation","Confirmation refit train+validation unlike the primary training-only ridge","Confirmation selected one training seed rather than reporting all","Bootstrap drew independent rather than paired identity indices","Fixed rank array sliced using cluster offsets without reordering cells"],
+ "consequence":"Original nonlinear performance is an implementation diagnostic; original paired CI is invalid. Test responses already opened and may not be described as untouched in future diagnostics.",
+ "corrective_protocol":"experiments/matched_nonlinear_corrected_protocol_20261007.md"
+}
