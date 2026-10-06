@@ -5,11 +5,11 @@
   "paper": {
     "tex": {
       "path": "paper/main.tex",
-      "sha256": "29703bd0f3c5a211987c578e74276ee14ae6a57ab96a3a9faa32f85bf5b81703"
+      "sha256": "0b3dd317b806b2b08211f12b518d2f15641fafe0e5ebeaa126fe419b39e5b032"
     },
     "pdf": {
       "path": "paper/main.pdf",
-      "sha256": "7217eb928b3717d31a8755fa1693274952adb6c6bf4e811dd21ad4e0d2d70771",
+      "sha256": "4ff05e306b1efca309f69ce346587bb6ab3675459eda5c0c9599e488032c487a",
       "pages": 22
     }
   },
@@ -86,7 +86,8 @@
     "matched_nonlinear_summary": "results/matched_nonlinear_validation_summary.json",
     "matched_nonlinear_protocol": "experiments/matched_nonlinear_corrected_protocol_20261007.md",
     "job_record": "experiments/matched_nonlinear_4090_job_record_20261006.json",
-    "release_metadata": "provenance/release_metadata.json"
+    "release_metadata": "provenance/release_metadata.json",
+    "figure_source_current": "experiments/figure_source_audit_v1110.json"
   },
   "supersedes": [
     "experiments/figure_source_audit.json",
@@ -102,8 +103,8 @@
     "experiments/final_visual_audit_round10.json",
     "experiments/release_readme_followup_20261008.md"
   ],
-  "release_tag": "v1.1.9",
-  "release_url": "https://github.com/jinluo12345/norman-perturbseq-identity-ridge/releases/tag/v1.1.9",
+  "release_tag": "v1.1.10",
+  "release_url": "https://github.com/jinluo12345/norman-perturbseq-identity-ridge/releases/tag/v1.1.10",
   "scripts": {
     "matched_nonlinear_validation": "src/matched_nonlinear_validation_corrected.py",
     "matched_nonlinear_summary": "src/summarize_matched_nonlinear_validation.py",

@@ -1,0 +1,62 @@
+{
+  "status": "current_authoritative_figure_source_audit",
+  "release_tag": "v1.1.10",
+  "audit_date": "2026-10-08",
+  "paper_pdf_sha256": "4ff05e306b1efca309f69ce346587bb6ab3675459eda5c0c9599e488032c487a",
+  "paper_pdf_pages": 22,
+  "figures": [
+    {
+      "name": "Figure1",
+      "figure_path": "paper/figures_batch/Fig1_cell_batch_overview.pdf",
+      "figure_sha256": "f7f9ae6a9d5b8c2d1e909ed12ba7a7c634e16290f63cf88ae6d282efa06d4358",
+      "type": "native image2 mechanism",
+      "image2_provenance": "experiments/image2_fig1_generation_20261006_round4.json"
+    },
+    {
+      "name": "Figure2",
+      "figure_path": "paper/figures_batch/Fig2_cell_batch_repaired_performance.pdf",
+      "figure_sha256": "158156297fda678964382f5fb0899b185993265bb1b1786be569655a8f157169",
+      "type": "quantitative",
+      "script_path": "src/plot_fig2_repaired_performance.py",
+      "script_sha256": "baee9274d5afdbb7fc9c2125150fa9b8e3201869bd95b2b795c4a2c6731f8ee6"
+    },
+    {
+      "name": "Figure3",
+      "figure_path": "paper/figures_batch/Fig3_cell_batch_strata.pdf",
+      "figure_sha256": "480b850f1500b4e7ed326a37546cce4c96287033f187e31670209d2988262f20",
+      "type": "quantitative",
+      "script_path": "src/plot_fig3_repaired.py",
+      "script_sha256": "bc406d6a83e2e0a83985fd2e9003db1cf43475b6527eb7493e71d3cf2827ef0d"
+    },
+    {
+      "name": "Figure4",
+      "figure_path": "paper/figures_batch/Fig4_cell_batch_ablation_repaired.pdf",
+      "figure_sha256": "8692bbd3f8fb8c261097679cede801fd7e4052c7f7a17bcf8b516c7996353d43",
+      "type": "quantitative",
+      "script_path": "src/plot_fig4_repaired_ablation.py",
+      "script_sha256": "350503aeba42e9a46182f61e81fc69f8c4c61c1799fddf8ebb710ba9a12565a9"
+    },
+    {
+      "name": "Figure5",
+      "figure_path": "paper/figures_batch/Fig5_identity_cluster_uncertainty_repaired.pdf",
+      "figure_sha256": "c5b0798edb97c233f8d7899e95926fec5fa50f255264bd8905c3a948266d1f62",
+      "type": "native image2 concept plus quantitative",
+      "script_path": "src/plot_fig5_uncertainty_upgrade.py",
+      "script_sha256": "c3d22593627e208b5fc64d86f9fa79d7da278b70c980258ea4bfc9b017001fea",
+      "image2_provenance": "experiments/image2_Fig5_A_generation_20261006_v4.jsonl"
+    },
+    {
+      "name": "Figure6",
+      "figure_path": "paper/figures_batch/Fig6_intervention_priority.pdf",
+      "figure_sha256": "16a396775433fa1931de1aed586fc2e9c02d84d96c1206a787c8c7970c7fb1f3",
+      "type": "quantitative locked 27-combination retrospective priority",
+      "script_path": "src/plot_intervention_priority_locked.py",
+      "script_sha256": "248f8262199dc3004b73515fc8a1e84f35ad3ae1facfab1636715db2d021b660",
+      "result_path": "results/intervention_priority_locked_evaluation.json",
+      "result_sha256": "361c05ff9b595ca4a6e4fe2ad733cff8d75066edbdd6e60d93a39527cbf4e651",
+      "locked_denominator": 27,
+      "priority_metric": "top-k overlap/NDCG/pathway agreement/Jaccard"
+    }
+  ],
+  "notes": "Quantitative panels are generated from frozen result objects; Figure 6 uses the locked 27-combination script and result. Historical figure audit files are retained only as superseded provenance."
+}
