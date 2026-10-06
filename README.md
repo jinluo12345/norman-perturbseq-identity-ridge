@@ -35,7 +35,8 @@ The scripts read only the released `results/` objects and the native image2 pane
 
 The manuscript is compiled from `manuscript/main.tex` after placing the released figures under the relative paths expected by the source. The release audits record the PDF hash and figure/source checksums.
 
+The versioned archive URL for this release is https://github.com/jinluo12345/norman-perturbseq-identity-ridge/tree/v1.0.0. The repository commit history and `provenance/release_manifest.sha256` provide the immutable version and file-integrity record.
+
 ## License and citation
 
 Code is released under the MIT License; derived arrays, figures and manuscript text are released under CC BY 4.0. Please cite the manuscript and the Norman–Weissman source study when reusing this release.
-

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "Auditable Norman-Weissman Perturb-seq response prediction"
+message: "If you use this release, cite the associated manuscript and the Norman-Weissman source study."
+type: software
+version: v1.0.0
+date-released: 2026-10-06
+repository-code: "https://github.com/jinluo12345/norman-perturbseq-identity-ridge"
+url: "https://github.com/jinluo12345/norman-perturbseq-identity-ridge/tree/v1.0.0"
+license: MIT
+authors:
+  - family-names: Luo
+    given-names: Jin
+    email: jinluo12345@users.noreply.github.com
+keywords:
+  - Perturb-seq
+  - single-cell genomics
+  - perturbation response prediction
+  - reproducible research
