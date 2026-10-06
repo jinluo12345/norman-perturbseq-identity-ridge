@@ -1,21 +1,25 @@
 {
   "date": "2026-10-07",
-  "pdf_sha256": "afcaf05600d5717a02089e3c5b709c9dfa6960a76dedc8ee565a5b2c79d4d89d",
+  "pdf_sha256": "d9bb99295b53cf33457378b13ea943cdd98b6a635fb0912ffbbaf0a6d151dade",
   "pages": 21,
   "render_dpi": 110,
   "status": "pass",
   "sampled_visual_pages": [
-    "page-01",
-    "page-04",
     "page-07",
     "page-10",
     "page-12",
-    "page-18",
     "page-21"
   ],
+  "rendered_files": [
+    ".audit_current_20261007/page07.png",
+    ".audit_current_20261007/page10.png",
+    ".audit_current_20261007/page12.png",
+    ".audit_current_20261007/page21.png"
+  ],
   "observations": [
-    "No page clipping or missing graphics in final contact sheet.",
-    "Figure pages 7-10 and 12 inspected at rendered width; axes, legends, captions and panel labels visible.",
-    "Six figures retain final-width layout; native image2 panels remain unchanged."
+    "Current PDF rendered at final-width scale; pages 7, 10, 12 and 21 inspected directly.",
+    "Figures 2, 5 and 6 retain readable axes, legends, panel labels and captions with no clipping or missing graphics.",
+    "Figure 6 error bars are explicitly labeled split standard deviations; supplementary bootstrap intervals are named in the caption.",
+    "No page clipping, stale figure source, or unreadable quantitative panel was observed in the sampled pages."
   ]
 }
