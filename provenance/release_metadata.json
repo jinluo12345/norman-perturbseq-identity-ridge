@@ -1,0 +1,18 @@
+{
+  "release_name": "norman-perturbseq-identity-ridge",
+  "release_version": "v1.0.0",
+  "release_date": "2026-10-06",
+  "primary_source": {
+    "study": "Norman-Weissman K562 Perturb-seq",
+    "geo_accession": "GSE133344",
+    "geo_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE133344",
+    "doi": "10.1038/s41586-019-1431-3",
+    "doi_url": "https://doi.org/10.1038/s41586-019-1431-3"
+  },
+  "estimand": "Identity-held-out prediction of a 512-gene control-relative response conditional on observed Norman gemgroup metadata",
+  "derived_input_policy": "Raw h5ad files are not duplicated; frozen processed arrays and source checksums are included",
+  "license_code": "MIT",
+  "license_derived": "CC BY 4.0",
+  "archive_url": "https://github.com/jinluo12345/norman-perturbseq-identity-ridge",
+  "version_commit": "PENDING_FINAL_COMMIT"
+}

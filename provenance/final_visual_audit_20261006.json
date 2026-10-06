@@ -1,0 +1,58 @@
+{
+  "audit_date": "2026-10-06",
+  "audit_round": "round10-final-current-artifact",
+  "pdf": "paper/manuscript.pdf",
+  "pdf_sha256": "b875e3a118d92a8dd8ed8c4cfde1782efdabb221d0bd21e0193d5f9c246ea929",
+  "pdf_pages": 21,
+  "figure_count": 6,
+  "table_count": 3,
+  "figures": {
+    "Figure1": {
+      "source": "paper/figures/ai_generated/Fig1_model_mechanism_round4.png",
+      "type": "native image2 mechanism",
+      "native_job_completed": true,
+      "nativeToolConfirmed": true,
+      "png_header": "89504e470d0a1a0a"
+    },
+    "Figure2": {
+      "source": "paper/figures_batch/Fig2_cell_batch_repaired_performance.pdf",
+      "type": "quantitative"
+    },
+    "Figure3": {
+      "source": "paper/figures_batch/Fig3_cell_batch_strata.pdf",
+      "type": "quantitative"
+    },
+    "Figure4": {
+      "source": "paper/figures_batch/Fig4_cell_batch_ablation_repaired.pdf",
+      "type": "quantitative"
+    },
+    "Figure5": {
+      "source": "paper/figures_batch/Fig5_identity_cluster_uncertainty_repaired.pdf",
+      "type": "native image2 concept plus quantitative panels",
+      "panel_a_native_source": "figures/ai_generated/Fig5_A_identity_cluster_concept_v4.png",
+      "native_job_completed": true,
+      "nativeToolConfirmed": true,
+      "png_header": "89504e470d0a1a0a"
+    },
+    "Figure6": {
+      "source": "paper/figures_batch/Fig6_intervention_priority.pdf",
+      "type": "quantitative",
+      "panel_c_ylabel": "Pathway agreement",
+      "topk_null_line_visible": true
+    }
+  },
+  "checks": {
+    "main_pdf_equals_manuscript_pdf": true,
+    "clean_latex_log": true,
+    "embedded_fonts": true,
+    "reader_visible_path_scan": true,
+    "no_clipping_or_reorder": true,
+    "caption_adjacent": true,
+    "native_image2_for_concept_panels": true,
+    "quantitative_panels_from_real_data_code": true,
+    "current_title_12_words": true,
+    "current_abstract_196_words": true,
+    "session_done": false
+  },
+  "notes": "Replaces stale visual audits whose page/figure counts referred to earlier PDFs. Current artifact is the 21-page b875e3a PDF; Figure 6 is included and Figure 1 is the round4 native image2 PNG used by main.tex."
+}

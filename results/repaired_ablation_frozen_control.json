@@ -1,0 +1,335 @@
+{
+  "protocol": "validation_only_cell_batch_ridge_input_ablation",
+  "variants": {
+    "full": [
+      "gene",
+      "pathway",
+      "component"
+    ],
+    "no_pathway": [
+      "gene",
+      "component"
+    ],
+    "no_gene": [
+      "pathway",
+      "component"
+    ],
+    "no_component": [
+      "gene",
+      "pathway"
+    ]
+  },
+  "selection": "alpha by validation cell RMSE only; no test targets loaded",
+  "rows": [
+    {
+      "seed": 11,
+      "variant": "full",
+      "features": [
+        "gene",
+        "pathway",
+        "component"
+      ],
+      "alpha": 100.0,
+      "validation": {
+        "rmse": 0.44795439369363405,
+        "pearson": 0.249309786780883,
+        "spearman": 0.2001803995519937,
+        "n_cells": 8156
+      }
+    },
+    {
+      "seed": 11,
+      "variant": "no_pathway",
+      "features": [
+        "gene",
+        "component"
+      ],
+      "alpha": 30.0,
+      "validation": {
+        "rmse": 0.44805026587533936,
+        "pearson": 0.24912046501892257,
+        "spearman": 0.20020553921665774,
+        "n_cells": 8156
+      }
+    },
+    {
+      "seed": 11,
+      "variant": "no_gene",
+      "features": [
+        "pathway",
+        "component"
+      ],
+      "alpha": 100.0,
+      "validation": {
+        "rmse": 0.4479406103190547,
+        "pearson": 0.2493383507814925,
+        "spearman": 0.20014539094133738,
+        "n_cells": 8156
+      }
+    },
+    {
+      "seed": 11,
+      "variant": "no_component",
+      "features": [
+        "gene",
+        "pathway"
+      ],
+      "alpha": 100.0,
+      "validation": {
+        "rmse": 0.45383099645991176,
+        "pearson": 0.20437492317659342,
+        "spearman": 0.1692478665661917,
+        "n_cells": 8156
+      }
+    },
+    {
+      "seed": 22,
+      "variant": "full",
+      "features": [
+        "gene",
+        "pathway",
+        "component"
+      ],
+      "alpha": 300.0,
+      "validation": {
+        "rmse": 0.4491947555068047,
+        "pearson": 0.2400713874873754,
+        "spearman": 0.19273698568318487,
+        "n_cells": 6956
+      }
+    },
+    {
+      "seed": 22,
+      "variant": "no_pathway",
+      "features": [
+        "gene",
+        "component"
+      ],
+      "alpha": 300.0,
+      "validation": {
+        "rmse": 0.4494208610259114,
+        "pearson": 0.23772965523752274,
+        "spearman": 0.1894914788093275,
+        "n_cells": 6956
+      }
+    },
+    {
+      "seed": 22,
+      "variant": "no_gene",
+      "features": [
+        "pathway",
+        "component"
+      ],
+      "alpha": 300.0,
+      "validation": {
+        "rmse": 0.44921158234542397,
+        "pearson": 0.23997097088194363,
+        "spearman": 0.19264834627710398,
+        "n_cells": 6956
+      }
+    },
+    {
+      "seed": 22,
+      "variant": "no_component",
+      "features": [
+        "gene",
+        "pathway"
+      ],
+      "alpha": 300.0,
+      "validation": {
+        "rmse": 0.4541938822920014,
+        "pearson": 0.19510493127406323,
+        "spearman": 0.16354246083415747,
+        "n_cells": 6956
+      }
+    },
+    {
+      "seed": 33,
+      "variant": "full",
+      "features": [
+        "gene",
+        "pathway",
+        "component"
+      ],
+      "alpha": 100.0,
+      "validation": {
+        "rmse": 0.45250653962434473,
+        "pearson": 0.25551234821401153,
+        "spearman": 0.20126929733206397,
+        "n_cells": 8147
+      }
+    },
+    {
+      "seed": 33,
+      "variant": "no_pathway",
+      "features": [
+        "gene",
+        "component"
+      ],
+      "alpha": 100.0,
+      "validation": {
+        "rmse": 0.4523176264047625,
+        "pearson": 0.25675692211899925,
+        "spearman": 0.2025278272975399,
+        "n_cells": 8147
+      }
+    },
+    {
+      "seed": 33,
+      "variant": "no_gene",
+      "features": [
+        "pathway",
+        "component"
+      ],
+      "alpha": 100.0,
+      "validation": {
+        "rmse": 0.45251934367232227,
+        "pearson": 0.25538486052415776,
+        "spearman": 0.2012298965121261,
+        "n_cells": 8147
+      }
+    },
+    {
+      "seed": 33,
+      "variant": "no_component",
+      "features": [
+        "gene",
+        "pathway"
+      ],
+      "alpha": 30.0,
+      "validation": {
+        "rmse": 0.45611038441677854,
+        "pearson": 0.22545688749683832,
+        "spearman": 0.18240350461612279,
+        "n_cells": 8147
+      }
+    },
+    {
+      "seed": 44,
+      "variant": "full",
+      "features": [
+        "gene",
+        "pathway",
+        "component"
+      ],
+      "alpha": 100.0,
+      "validation": {
+        "rmse": 0.44772550351450807,
+        "pearson": 0.2532997140634506,
+        "spearman": 0.20551173605216602,
+        "n_cells": 7743
+      }
+    },
+    {
+      "seed": 44,
+      "variant": "no_pathway",
+      "features": [
+        "gene",
+        "component"
+      ],
+      "alpha": 100.0,
+      "validation": {
+        "rmse": 0.4477283490360698,
+        "pearson": 0.2530642716809482,
+        "spearman": 0.2047515377406747,
+        "n_cells": 7743
+      }
+    },
+    {
+      "seed": 44,
+      "variant": "no_gene",
+      "features": [
+        "pathway",
+        "component"
+      ],
+      "alpha": 100.0,
+      "validation": {
+        "rmse": 0.447724721509537,
+        "pearson": 0.25332122071884383,
+        "spearman": 0.2055155736708665,
+        "n_cells": 7743
+      }
+    },
+    {
+      "seed": 44,
+      "variant": "no_component",
+      "features": [
+        "gene",
+        "pathway"
+      ],
+      "alpha": 100.0,
+      "validation": {
+        "rmse": 0.4534615799080747,
+        "pearson": 0.2051402229353023,
+        "spearman": 0.1655520798113116,
+        "n_cells": 7743
+      }
+    },
+    {
+      "seed": 55,
+      "variant": "full",
+      "features": [
+        "gene",
+        "pathway",
+        "component"
+      ],
+      "alpha": 100.0,
+      "validation": {
+        "rmse": 0.4645493006426185,
+        "pearson": 0.26774199582436736,
+        "spearman": 0.23312202549879887,
+        "n_cells": 7826
+      }
+    },
+    {
+      "seed": 55,
+      "variant": "no_pathway",
+      "features": [
+        "gene",
+        "component"
+      ],
+      "alpha": 100.0,
+      "validation": {
+        "rmse": 0.46487851480338893,
+        "pearson": 0.26517134813269294,
+        "spearman": 0.2295953741716203,
+        "n_cells": 7826
+      }
+    },
+    {
+      "seed": 55,
+      "variant": "no_gene",
+      "features": [
+        "pathway",
+        "component"
+      ],
+      "alpha": 100.0,
+      "validation": {
+        "rmse": 0.464545797962645,
+        "pearson": 0.26773097221312275,
+        "spearman": 0.23308481243356255,
+        "n_cells": 7826
+      }
+    },
+    {
+      "seed": 55,
+      "variant": "no_component",
+      "features": [
+        "gene",
+        "pathway"
+      ],
+      "alpha": 300.0,
+      "validation": {
+        "rmse": 0.4694480764104159,
+        "pearson": 0.22812008520370947,
+        "spearman": 0.20422345446216084,
+        "n_cells": 7826
+      }
+    }
+  ],
+  "input_hashes": {
+    "cell_panel": "bde39926837bc497af5dcdc9b694b72d3ce37fe3e540175544451a097753290c",
+    "metadata": "5c0eff540024d11d0648794308354ebf2409d4ba21b9629d14f2c0ae255af192",
+    "raw_h5ad": "efde6f5301fe256725dce1d980f37bd96a13481a9a16135515897368e631affc"
+  }
+}

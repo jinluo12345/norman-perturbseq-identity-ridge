@@ -1,0 +1,27 @@
+{
+  "DixitRegev2016_K562_TFs_13_days.h5ad": {
+    "path": "data/raw/DixitRegev2016_K562_TFs_13_days.h5ad",
+    "bytes": 121166672,
+    "sha256": "f7c483fa2a3cb79740ee816850ad7b8432f2c4c17fb4ac6fdd2cbe32a29f11a1"
+  },
+  "AdamsonWeissman2016_GSM2406677_10X005.h5ad": {
+    "path": "data/raw/AdamsonWeissman2016_GSM2406677_10X005.h5ad",
+    "bytes": 139059637,
+    "sha256": "6c6eca0f53f8887b86597e2a4ff512ff2b2d3d9c78ee7deec9a6e7d6ae859d01"
+  },
+  "AdamsonWeissman2016_GSM2406675_10X001.h5ad": {
+    "path": "data/raw/AdamsonWeissman2016_GSM2406675_10X001.h5ad",
+    "bytes": 34557246,
+    "sha256": "119e3c1cf7dede4e13f887b86f9bcd797a9dc29213ee57d36aa80012d93f1c1c"
+  },
+  "NormanWeissman2019_filtered.h5ad": {
+    "path": "data/raw/NormanWeissman2019_filtered.h5ad",
+    "bytes": 698680199,
+    "sha256": "efde6f5301fe256725dce1d980f37bd96a13481a9a16135515897368e631affc"
+  },
+  "ReactomePathways.gmt.zip": {
+    "path": "data/raw/pathways/ReactomePathways.gmt.zip",
+    "bytes": 298479,
+    "sha256": "8c1dbc8578431da5d2d5118262718c60b553a9be3398e93658daa069e4a9afd4"
+  }
+}

@@ -1,0 +1,4 @@
+Derived arrays, figure assets and manuscript text in this release are made
+available under the Creative Commons Attribution 4.0 International license
+(CC BY 4.0): https://creativecommons.org/licenses/by/4.0/ . The original
+Norman–Weissman data remain subject to the terms of their public repository.

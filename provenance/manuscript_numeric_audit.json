@@ -1,0 +1,6 @@
+{
+  "source": "results/repaired_split_local_controls.json",
+  "confirmation_numeric_values": 30,
+  "missing_five_decimal_strings": [],
+  "status": "PASS"
+}

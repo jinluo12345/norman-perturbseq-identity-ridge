@@ -1,0 +1,74 @@
+{
+  "audit_date": "2026-10-06",
+  "audit_round": "round10-final-current-artifact",
+  "manuscript_source_chars": 62155,
+  "reference_entries": 51,
+  "pdf": "paper/main.pdf",
+  "pdf_sha256": "b875e3a118d92a8dd8ed8c4cfde1782efdabb221d0bd21e0193d5f9c246ea929",
+  "pdf_pages": 21,
+  "pdf_copies_identical": true,
+  "reader_visible_internal_path_scan": "PASS",
+  "figure_number_order": [
+    "Figure 1 overview",
+    "Figure 2 performance",
+    "Figure 3 strata",
+    "Figure 4 ablation",
+    "Figure 5 uncertainty with native image2 panel a",
+    "Figure 6 validation-only intervention priority"
+  ],
+  "figure_sources": [
+    {
+      "tex_path": "figures/ai_generated/Fig1_model_mechanism_round4.png",
+      "resolved": "paper/figures/ai_generated/Fig1_model_mechanism_round4.png",
+      "exists": true,
+      "sha256": "072dae166e69d5a099a921278089f574ee74c0d93cf8a94bf6c411e12a6b8b85"
+    },
+    {
+      "tex_path": "figures_batch/Fig2_cell_batch_repaired_performance.pdf",
+      "resolved": "paper/figures_batch/Fig2_cell_batch_repaired_performance.pdf",
+      "exists": true,
+      "sha256": "e13b19f5f9f4249d8ea90851b29b0dbff950830b147901fc52fc1fc5df096f02"
+    },
+    {
+      "tex_path": "figures_batch/Fig3_cell_batch_strata.pdf",
+      "resolved": "paper/figures_batch/Fig3_cell_batch_strata.pdf",
+      "exists": true,
+      "sha256": "480b850f1500b4e7ed326a37546cce4c96287033f187e31670209d2988262f20"
+    },
+    {
+      "tex_path": "figures_batch/Fig4_cell_batch_ablation_repaired.pdf",
+      "resolved": "paper/figures_batch/Fig4_cell_batch_ablation_repaired.pdf",
+      "exists": true,
+      "sha256": "8692bbd3f8fb8c261097679cede801fd7e4052c7f7a17bcf8b516c7996353d43"
+    },
+    {
+      "tex_path": "figures_batch/Fig5_identity_cluster_uncertainty_repaired.pdf",
+      "resolved": "paper/figures_batch/Fig5_identity_cluster_uncertainty_repaired.pdf",
+      "exists": true,
+      "sha256": "7bf4c2f995581640f441c0b06b9943fa545ae648203432c2cd2bac31b5cd8650"
+    },
+    {
+      "tex_path": "figures_batch/Fig6_intervention_priority.pdf",
+      "resolved": "paper/figures_batch/Fig6_intervention_priority.pdf",
+      "exists": true,
+      "sha256": "e294e6fd64d5376ae5db53f54caf8187eca9ab156bcb24577b09ba0e049af60b"
+    }
+  ],
+  "native_image2": {
+    "Fig1": "PASS",
+    "Fig5A_native_source": "PASS",
+    "Fig5A_formal_panel": "deterministic proportional resample of native source"
+  },
+  "png_header_checks": {
+    "Fig1_model_mechanism_round4.png": "89504e470d0a1a0a",
+    "Fig5_A_identity_cluster_concept_v4.png": "89504e470d0a1a0a",
+    "Fig5_A_identity_cluster_concept_v4_upsampled.png": "89504e470d0a1a0a"
+  },
+  "retrospective_lock_audit": "PASS",
+  "spearman_reporting": "fixed-rank sensitivity explicitly disclosed; exact rank audit separately bounded",
+  "figure_collision_and_page_visual_review": "PASS",
+  "pdf_font_embedding": "PASS",
+  "caption_panel_mapping": "PASS",
+  "session_done_allowed": false,
+  "reason_session_done_allowed_false": "Public derived-data/code archive and immutable release identifiers remain pending."
+}

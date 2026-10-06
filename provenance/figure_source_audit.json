@@ -1,0 +1,81 @@
+{
+  "audit_date": "2026-10-06",
+  "audit_round": "round10-final-current-artifact",
+  "strict_current_artifact": true,
+  "quantitative_figures": {
+    "Figure2": {
+      "plot_script": "src/plot_fig2_repaired_performance.py",
+      "plot_script_exists": true,
+      "result_source": "results/repaired_split_local_controls.json",
+      "result_source_exists": true,
+      "script_sha256": "baee9274d5afdbb7fc9c2125150fa9b8e3201869bd95b2b795c4a2c6731f8ee6",
+      "result_sha256": "1cd269a5c7ec2867d48905d88ef3b1ea7455f4cdefc7829dbb22710feb5e6cb8",
+      "real_data_source_verified": true
+    },
+    "Figure3": {
+      "plot_script": "src/plot_fig3_repaired.py",
+      "plot_script_exists": true,
+      "result_source": "results/repaired_split_local_controls.json",
+      "result_source_exists": true,
+      "script_sha256": "bc406d6a83e2e0a83985fd2e9003db1cf43475b6527eb7493e71d3cf2827ef0d",
+      "result_sha256": "1cd269a5c7ec2867d48905d88ef3b1ea7455f4cdefc7829dbb22710feb5e6cb8",
+      "real_data_source_verified": true
+    },
+    "Figure4": {
+      "plot_script": "src/plot_fig4_repaired_ablation.py",
+      "plot_script_exists": true,
+      "result_source": "results/repaired_ablation_frozen_control.json",
+      "result_source_exists": true,
+      "script_sha256": "350503aeba42e9a46182f61e81fc69f8c4c61c1799fddf8ebb710ba9a12565a9",
+      "result_sha256": "4fea77ca832781fff0a1a9d7d15b830a38c2a01c112b4e6e880ada08f2d57664",
+      "real_data_source_verified": true
+    },
+    "Figure6": {
+      "plot_script": "src/plot_intervention_priority.py",
+      "plot_script_exists": true,
+      "result_source": "results/intervention_priority_simulation.json",
+      "result_source_exists": true,
+      "script_sha256": "33039268733b60dc718ec3bfe8bc572f788d7b01738f5df9bb7d4f98c940c8fc",
+      "result_sha256": "47e22ee330d04e5aa89da9b60b272938d837141bcbcede218c66dcafc3da0bbe",
+      "real_data_source_verified": true
+    },
+    "Figure5": {
+      "plot_script": "src/plot_fig5_repaired_upgrade.py",
+      "plot_script_exists": true,
+      "result_source": "results/repaired_split_local_controls.json",
+      "result_source_exists": true,
+      "script_sha256": "e0b1044e1df2f3bf21df27975009471e2c3a8f6000869b22ba5c946ddce9a0bb",
+      "result_sha256": "1cd269a5c7ec2867d48905d88ef3b1ea7455f4cdefc7829dbb22710feb5e6cb8",
+      "real_data_source_verified": true
+    }
+  },
+  "conceptual_figures": {
+    "Figure1": {
+      "source": "paper/figures/ai_generated/Fig1_model_mechanism_round4.png",
+      "native_image2": true,
+      "png_header": "89504e470d0a1a0a"
+    },
+    "Figure5A": {
+      "source": "paper/figures/ai_generated/Fig5_A_identity_cluster_concept_v4.png",
+      "native_image2": true,
+      "png_header": "89504e470d0a1a0a",
+      "formal_panel": "paper/figures/ai_generated/Fig5_A_identity_cluster_concept_v4_upsampled.png"
+    }
+  },
+  "display_order": [
+    "Figure1",
+    "Figure2",
+    "Figure3",
+    "Figure4",
+    "Figure5",
+    "Figure6"
+  ],
+  "warnings": [],
+  "checks": {
+    "all_quantitative_sources_present": true,
+    "all_conceptual_sources_native_image2": true,
+    "no_simulated_values_in_final_figures": true,
+    "current_pdf_figure_count": 6,
+    "current_pdf_sha256": "b875e3a118d92a8dd8ed8c4cfde1782efdabb221d0bd21e0193d5f9c246ea929"
+  }
+}

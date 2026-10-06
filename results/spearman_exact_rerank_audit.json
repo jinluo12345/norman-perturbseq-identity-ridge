@@ -1,0 +1,20 @@
+{
+  "protocol": "exact_spearman_reranking_audit",
+  "seed": 11,
+  "B": 128,
+  "unit": "held-out identity cluster mean profile (one 512-gene profile per identity)",
+  "alpha_candidate": 300.0,
+  "alpha_baseline": 30.0,
+  "exact_delta_mean": -0.0026690354715446177,
+  "exact_ci95": [
+    -0.006268557333236257,
+    0.00036995549965541415
+  ],
+  "fixed_rank_delta_mean": -0.0017741521115109656,
+  "fixed_rank_ci95": [
+    -0.004871852011214423,
+    0.0008872501477505654
+  ],
+  "direction_agreement": true,
+  "input_panel_sha256": "6e59847b3d33af154cd49f5b29355503396a3184fd24324691d2f58f9e4bc02b"
+}

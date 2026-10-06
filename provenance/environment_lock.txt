@@ -1,0 +1,13 @@
+# Observed workspace runtime
+python==3.12.12 (main, Jan 14 2026, 19:35:58) [Clang 21.1.4 ]
+anndata==0.11.4
+h5py==3.13.0
+matplotlib==3.10.1
+numpy==2.2.6
+pandas==2.2.3
+scanpy==1.11.1
+scikit-learn==1.5.2
+scipy==1.15.2
+seaborn==0.13.2
+torch==2.6.0+cu124
+tqdm==4.67.1
