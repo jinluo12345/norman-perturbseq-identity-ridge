@@ -14,7 +14,7 @@
   ],
   "source_accession": "GSE133344",
   "pdf": "paper/main.pdf",
-  "pdf_sha256": "b2dd897545a1ec7efbf9ec700540f94cf40d6a05437d10b52ecaf1b2d9091cf7",
+  "pdf_sha256": "b699f18a30c86c7bf51d01aa0334480dc45dcbdfaa1f3c1545530f47a5b1fb68",
   "pdf_pages": 21,
   "figures": 6,
   "tables": 3,
@@ -22,5 +22,5 @@
   "derived_data_policy": "Raw h5ad files are referenced by accession and source checksums; processed arrays are included in the release.",
   "release_manifest": "public_release/provenance/release_manifest.sha256",
   "status": "PASS",
-  "release_commit": "39ab171d5360bcbe8ea36c57bb8b2568a885b676"
+  "release_commit": "be1447a73d3ead492acbf15f95a38c8cbf80a8f3"
 }
