@@ -2,7 +2,7 @@
   "audit_date": "2026-10-06",
   "audit_round": "round10-final-current-artifact",
   "pdf": "paper/manuscript.pdf",
-  "pdf_sha256": "b2dd897545a1ec7efbf9ec700540f94cf40d6a05437d10b52ecaf1b2d9091cf7",
+  "pdf_sha256": "b699f18a30c86c7bf51d01aa0334480dc45dcbdfaa1f3c1545530f47a5b1fb68",
   "pdf_pages": 21,
   "figure_count": 6,
   "table_count": 3,
@@ -54,5 +54,5 @@
     "current_abstract_196_words": true,
     "session_done": false
   },
-  "notes": "Replaces stale visual audits whose page/figure counts referred to earlier PDFs. Current artifact is the 21-page b2dd8975 PDF; Figure 6 is included and Figure 1 is the round4 native image2 PNG used by main.tex."
+  "notes": "Replaces stale visual audits whose page/figure counts referred to earlier PDFs. Current artifact is the 21-page b699f18a PDF; Figure 6 is included and Figure 1 is the round4 native image2 PNG used by main.tex."
 }
