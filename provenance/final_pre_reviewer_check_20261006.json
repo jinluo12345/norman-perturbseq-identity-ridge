@@ -70,5 +70,5 @@
   "pdf_font_embedding": "PASS",
   "caption_panel_mapping": "PASS",
   "session_done_allowed": false,
-  "reason_session_done_allowed_false": "Public derived-data/code archive and immutable release identifiers remain pending."
+  "reason_session_done_allowed_false": "A fresh independent external reviewer decision is still pending."
 }
