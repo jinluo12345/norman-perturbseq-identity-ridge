@@ -1,25 +1,25 @@
 {
   "date": "2026-10-07",
-  "pdf_sha256": "c7a99476da8bb3cfd5b54e159b1f2437bb79ff31d75bb4097c11287df206f63f",
-  "pages": 21,
+  "pdf_sha256": "0a64af7d97c670655644934c6238a14767d06ca6c3a29c53c913c519664e4b05",
+  "pages": 22,
   "render_dpi": 110,
   "status": "pass",
   "sampled_visual_pages": [
-    "page-07",
-    "page-10",
     "page-12",
-    "page-21"
+    "page-13",
+    "page-14",
+    "page-22"
   ],
   "rendered_files": [
-    ".audit_current_20261007/page07.png",
-    ".audit_current_20261007/page10.png",
-    ".audit_current_20261007/page12.png",
-    ".audit_current_20261007/page21.png"
+    ".audit_current_20261007_v2/page-12.png",
+    ".audit_current_20261007_v2/page-13.png",
+    ".audit_current_20261007_v2/page-14.png",
+    ".audit_current_20261007_v2/page-22.png"
   ],
   "observations": [
-    "Current PDF rendered at final-width scale; pages 7, 10, 12 and 21 inspected directly.",
-    "Figures 2, 5 and 6 retain readable axes, legends, panel labels and captions with no clipping or missing graphics.",
-    "Figure 6 error bars are explicitly labeled split standard deviations; supplementary bootstrap intervals are named in the caption.",
-    "No page clipping, stale figure source, or unreadable quantitative panel was observed in the sampled pages."
+    "Current 22-page PDF rendered at final-width scale; pages 12, 13, 14 and 22 inspected directly.",
+    "Figure 6 on page 12 retains readable axes, legends, panel labels, table and caption with no clipping.",
+    "The corrected matched nonlinear comparator text on page 13 and the 30-row Supplementary Table 4 on page 14 are readable at final-width scale; columns and parameter counts are visible.",
+    "Page 22 bibliography has no clipping or missing glyphs. No page clipping, stale figure source, or unreadable quantitative panel was observed in the sampled pages."
   ]
 }

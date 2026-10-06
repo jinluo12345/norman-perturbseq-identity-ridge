@@ -5,12 +5,12 @@
   "paper": {
     "tex": {
       "path": "paper/main.tex",
-      "sha256": "5648b2af0a64d3d6dae983ed661b18fd877e807a72230fc5ffe5ef34d3e9aa59"
+      "sha256": "3e70955e2684ee3c2de9b457e3b107b5165c0209adc6da02f030b5feb227bfc4"
     },
     "pdf": {
       "path": "paper/main.pdf",
-      "sha256": "c7a99476da8bb3cfd5b54e159b1f2437bb79ff31d75bb4097c11287df206f63f",
-      "pages": 21
+      "sha256": "0a64af7d97c670655644934c6238a14767d06ca6c3a29c53c913c519664e4b05",
+      "pages": 22
     }
   },
   "results": {
@@ -29,6 +29,14 @@
     "priority_bootstrap_supplement": {
       "path": "results/intervention_priority_bootstrap_supplement.json",
       "sha256": "ba6cd58e06d65f8e70f8b510108c43b2b18368fba8830f7e3c97eaef526fe034"
+    },
+    "matched_nonlinear_validation": {
+      "path": "results/matched_nonlinear_validation_corrected.json",
+      "sha256": "a59c53ec10d236068b277da0a38648c82643159267ef58daef020ca2aa1f50c6"
+    },
+    "matched_nonlinear_validation_summary": {
+      "path": "results/matched_nonlinear_validation_summary.json",
+      "sha256": "c5354df78850c1c28632b1e06e0d73f9f00588f6dcf21dd9c1e56e57d68476d0"
     }
   },
   "figures": [
@@ -72,7 +80,11 @@
   "audits": {
     "width_visual": "experiments/final_width_visual_audit_20261007.json",
     "matched_nonlinear": "experiments/matched_nonlinear_invalid_implementation_audit.json",
-    "corrected_protocol": "experiments/matched_nonlinear_corrected_protocol_20261007.md"
+    "corrected_protocol": "experiments/matched_nonlinear_corrected_protocol_20261007.md",
+    "matched_nonlinear_job": "experiments/matched_nonlinear_4090_job_record_20261006.json",
+    "matched_nonlinear_result": "results/matched_nonlinear_validation_corrected.json",
+    "matched_nonlinear_summary": "results/matched_nonlinear_validation_summary.json",
+    "matched_nonlinear_protocol": "experiments/matched_nonlinear_corrected_protocol_20261007.md"
   },
   "supersedes": [
     "experiments/figure_source_audit.json",
@@ -80,6 +92,11 @@
     "experiments/final_pre_reviewer_check.json",
     "experiments/post_correction_audit_20261007.json"
   ],
-  "release_tag": "v1.1.5",
-  "release_url": "https://github.com/jinluo12345/norman-perturbseq-identity-ridge/releases/tag/v1.1.5"
+  "release_tag": "v1.1.6",
+  "release_url": "https://github.com/jinluo12345/norman-perturbseq-identity-ridge/releases/tag/v1.1.6",
+  "scripts": {
+    "matched_nonlinear_validation": "src/matched_nonlinear_validation_corrected.py",
+    "matched_nonlinear_summary": "src/summarize_matched_nonlinear_validation.py",
+    "supplementary_source": "paper/supplementary_matched_nonlinear.tex"
+  }
 }
