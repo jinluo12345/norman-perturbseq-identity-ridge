@@ -1,8 +1,8 @@
 {
   "status": "PASS",
   "audit": "retry3 manuscript integration after scope and post-exposure wording edits",
-  "tex_sha256": "f55dd68bf77630020f9a326056b3877ac2f9c12c372e7b14a8acba5acc7b823d",
-  "pdf_sha256": "76de0573975c15e53ff7b1043ab913bfbf8cd34e75f2325b8a535bdaf2f0790b",
+  "tex_sha256": "713381b10a6e9f9fb59933aa9ce924d57babe29774f941df0e5e1b2aaa4788d1",
+  "pdf_sha256": "830c8543275750f960ef2ec271817e318fc465d54c936799d1265e85dae757c3",
   "pdf_pages": 22,
   "corrected_result_sha256": "740fd66fa44dc912ff1c1b924e7cf47038b33906060969b69d9944d9d9790c40",
   "protocol_sha256": "32aa6f085015728bad5a8b01e804e8d3e5263c75534d63107c5bf2e530318cd5",
@@ -16,5 +16,10 @@
     "Supplementary Table 3"
   ],
   "per_output_nan_count": 0,
-  "per_output_null_count": 178
+  "per_output_null_count": 178,
+  "supplementary_crossrefs": {
+    "priority": "Supplementary Table 1",
+    "nonlinear_confirmation": "Supplementary Table 3",
+    "status": "PASS"
+  }
 }

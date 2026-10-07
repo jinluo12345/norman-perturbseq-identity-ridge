@@ -2,16 +2,16 @@
   "status": "current_authoritative_public_manifest",
   "date": "2026-10-08",
   "scope": "Norman-Weissman K562 single-screen observed-gemgroup identity-held-out ridge with retrospective ranking diagnostic and corrected post-exposure nonlinear reanalysis",
-  "release_tag": "v1.1.11",
-  "release_url": "https://github.com/jinluo12345/norman-perturbseq-identity-ridge/releases/tag/v1.1.11",
+  "release_tag": "v1.1.12",
+  "release_url": "https://github.com/jinluo12345/norman-perturbseq-identity-ridge/releases/tag/v1.1.12",
   "paper": {
     "tex": {
       "path": "manuscript/main.tex",
-      "sha256": "f55dd68bf77630020f9a326056b3877ac2f9c12c372e7b14a8acba5acc7b823d"
+      "sha256": "713381b10a6e9f9fb59933aa9ce924d57babe29774f941df0e5e1b2aaa4788d1"
     },
     "pdf": {
       "path": "manuscript/main.pdf",
-      "sha256": "76de0573975c15e53ff7b1043ab913bfbf8cd34e75f2325b8a535bdaf2f0790b",
+      "sha256": "830c8543275750f960ef2ec271817e318fc465d54c936799d1265e85dae757c3",
       "pages": 22
     }
   },
@@ -39,6 +39,10 @@
     "src/matched_nonlinear_corrected_locked_confirmation.py": {
       "path": "src/matched_nonlinear_corrected_locked_confirmation.py",
       "sha256": "82396e2bbbd0063f1596080a97ac90478fe3a13aa2613fc1a2ddbffd0ac53dcc"
+    },
+    "src/normalize_pdf_metadata.py": {
+      "path": "src/normalize_pdf_metadata.py",
+      "sha256": "968efdb74d7ef82639b607d5cabbf375763f46e48deb7bc77fd73581f5f4821e"
     },
     "provenance/matched_nonlinear_corrected_locked_confirmation_protocol_20261008.md": {
       "path": "provenance/matched_nonlinear_corrected_locked_confirmation_protocol_20261008.md",
@@ -120,7 +124,7 @@
     "retry3_result_audit": "provenance/matched_nonlinear_corrected_locked_confirmation_retry3_final_audit.json"
   },
   "supersedes": [
-    "v1.1.10",
+    "v1.1.11",
     "provenance/current_artifact_manifest_20261007.json",
     "provenance/figure_source_audit_v1110.json"
   ]

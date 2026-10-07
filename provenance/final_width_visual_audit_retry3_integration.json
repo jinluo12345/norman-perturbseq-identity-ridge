@@ -1,7 +1,7 @@
 {
   "audit": "retry3 final width and reader audit",
   "pdf": "manuscript/main.pdf",
-  "pdf_sha256": "76de0573975c15e53ff7b1043ab913bfbf8cd34e75f2325b8a535bdaf2f0790b",
+  "pdf_sha256": "830c8543275750f960ef2ec271817e318fc465d54c936799d1265e85dae757c3",
   "pages": 22,
   "checks": {
     "supplementary_tables_readable": true,
@@ -28,5 +28,10 @@
       "native_provenance": true
     }
   ],
-  "status": "PASS"
+  "status": "PASS",
+  "deterministic_pdf_normalization": {
+    "script": "src/normalize_pdf_metadata.py",
+    "source_date_epoch": 1791417600,
+    "status": "PASS"
+  }
 }
