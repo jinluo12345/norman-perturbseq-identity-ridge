@@ -1,0 +1,10 @@
+{
+  "record_type": "public_compute_record",
+  "experiment": "matched_nonlinear_corrected_locked_confirmation_retry3",
+  "status": "job_succeeded",
+  "result_path": "results/matched_nonlinear_corrected_locked_confirmation.json",
+  "result_sha256": "740fd66fa44dc912ff1c1b924e7cf47038b33906060969b69d9944d9d9790c40",
+  "protocol_path": "experiments/matched_nonlinear_corrected_locked_confirmation_protocol_20261008.md",
+  "protocol_sha256": "32aa6f085015728bad5a8b01e804e8d3e5263c75534d63107c5bf2e530318cd5",
+  "public_note": "Private scheduler identifiers, workspace identifiers and execution logs are omitted from the public release."
+}

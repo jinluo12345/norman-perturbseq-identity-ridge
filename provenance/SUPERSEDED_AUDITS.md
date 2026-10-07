@@ -14,4 +14,4 @@ The files below are retained for provenance only and must not be interpreted as 
 - `post_correction_audit_20261007.json`
 - `matched_nonlinear_invalid_implementation_audit.json` (historical implementation audit only)
 
-The authoritative current artifact map is `provenance/current_artifact_manifest_20261007.json`; it points to the v1.1.10 manuscript/PDF, locked result objects, corrected validation artifacts and final-width audit.
+The authoritative current artifact map is `provenance/current_artifact_manifest_20261007.json`; it points to the v1.1.11 manuscript/PDF, locked result objects, corrected validation artifacts and final-width audit.

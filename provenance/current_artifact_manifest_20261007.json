@@ -1,113 +1,127 @@
 {
-  "status": "current_authoritative_manifest",
+  "status": "current_authoritative_public_manifest",
   "date": "2026-10-08",
-  "scope": "Norman-Weissman K562 single-screen observed-gemgroup identity-held-out ridge and locked retrospective priority",
+  "scope": "Norman-Weissman K562 single-screen observed-gemgroup identity-held-out ridge with retrospective ranking diagnostic and corrected post-exposure nonlinear reanalysis",
+  "release_tag": "v1.1.11",
+  "release_url": "https://github.com/jinluo12345/norman-perturbseq-identity-ridge/releases/tag/v1.1.11",
   "paper": {
     "tex": {
-      "path": "paper/main.tex",
-      "sha256": "0b3dd317b806b2b08211f12b518d2f15641fafe0e5ebeaa126fe419b39e5b032"
+      "path": "manuscript/main.tex",
+      "sha256": "f55dd68bf77630020f9a326056b3877ac2f9c12c372e7b14a8acba5acc7b823d"
     },
     "pdf": {
-      "path": "paper/main.pdf",
-      "sha256": "4ff05e306b1efca309f69ce346587bb6ab3675459eda5c0c9599e488032c487a",
+      "path": "manuscript/main.pdf",
+      "sha256": "76de0573975c15e53ff7b1043ab913bfbf8cd34e75f2325b8a535bdaf2f0790b",
       "pages": 22
     }
   },
-  "results": {
-    "primary": {
-      "path": "results/repaired_split_local_controls.json",
-      "sha256": "22ccbc703f491bbf48709a1968a3a96701528cfa815809aa991fc9c6316060d9"
+  "artifacts": {
+    "manuscript/supplementary_priority_bootstrap.tex": {
+      "path": "manuscript/supplementary_priority_bootstrap.tex",
+      "sha256": "e7a056c145d66b7f9b3b2de61a0f7027f3ac3fdb3abcae9cce3e49ab72a09fe4"
     },
-    "factorial": {
-      "path": "results/repaired_2x2_factorial.json",
-      "sha256": "cfbbda9b337f56ea6be3fff7adae0884c750b7c28be309da1ff24fd14b518e2b"
+    "manuscript/supplementary_matched_nonlinear.tex": {
+      "path": "manuscript/supplementary_matched_nonlinear.tex",
+      "sha256": "0a26a4d7e7555b5ff7f7b7a0b683d1e031adb4f0b14fac6153d48b175c6f675c"
     },
-    "priority_locked": {
+    "results/matched_nonlinear_corrected_locked_confirmation.json": {
+      "path": "results/matched_nonlinear_corrected_locked_confirmation.json",
+      "sha256": "740fd66fa44dc912ff1c1b924e7cf47038b33906060969b69d9944d9d9790c40"
+    },
+    "results/intervention_priority_locked_evaluation.json": {
       "path": "results/intervention_priority_locked_evaluation.json",
       "sha256": "361c05ff9b595ca4a6e4fe2ad733cff8d75066edbdd6e60d93a39527cbf4e651"
     },
-    "priority_bootstrap_supplement": {
+    "results/intervention_priority_bootstrap_supplement.json": {
       "path": "results/intervention_priority_bootstrap_supplement.json",
-      "sha256": "ba6cd58e06d65f8e70f8b510108c43b2b18368fba8830f7e3c97eaef526fe034"
+      "sha256": "c0ecc9a23f1c28fa5c08d6a9b885c2de596349d5dbb61a76e986b6552b1c025c"
     },
-    "matched_nonlinear_validation": {
-      "path": "results/matched_nonlinear_validation_corrected.json",
-      "sha256": "a59c53ec10d236068b277da0a38648c82643159267ef58daef020ca2aa1f50c6"
+    "src/matched_nonlinear_corrected_locked_confirmation.py": {
+      "path": "src/matched_nonlinear_corrected_locked_confirmation.py",
+      "sha256": "82396e2bbbd0063f1596080a97ac90478fe3a13aa2613fc1a2ddbffd0ac53dcc"
     },
-    "matched_nonlinear_validation_summary": {
-      "path": "results/matched_nonlinear_validation_summary.json",
-      "sha256": "c5354df78850c1c28632b1e06e0d73f9f00588f6dcf21dd9c1e56e57d68476d0"
+    "provenance/matched_nonlinear_corrected_locked_confirmation_protocol_20261008.md": {
+      "path": "provenance/matched_nonlinear_corrected_locked_confirmation_protocol_20261008.md",
+      "sha256": "32aa6f085015728bad5a8b01e804e8d3e5263c75534d63107c5bf2e530318cd5"
+    },
+    "provenance/matched_nonlinear_corrected_locked_confirmation_retry3_final_audit.json": {
+      "path": "provenance/matched_nonlinear_corrected_locked_confirmation_retry3_final_audit.json",
+      "sha256": "71429dcfec00151229883cb06f11874bd48ed03c68b7580f8121c7c3fac92603"
     }
   },
   "figures": [
     {
-      "path": "paper/figures_batch/Fig1_cell_batch_overview.pdf",
-      "sha256": "f7f9ae6a9d5b8c2d1e909ed12ba7a7c634e16290f63cf88ae6d282efa06d4358"
+      "name": "Figure1",
+      "figure_path": "figures/Fig1_cell_batch_overview.pdf",
+      "figure_sha256": "f7f9ae6a9d5b8c2d1e909ed12ba7a7c634e16290f63cf88ae6d282efa06d4358",
+      "type": "native image2 mechanism",
+      "image2_provenance": "image2/image2_fig1_generation_20261006_round4.json"
     },
     {
-      "path": "paper/figures_batch/Fig2_cell_batch_repaired_performance.pdf",
-      "sha256": "158156297fda678964382f5fb0899b185993265bb1b1786be569655a8f157169"
+      "name": "Figure2",
+      "figure_path": "figures/Fig2_cell_batch_repaired_performance.pdf",
+      "figure_sha256": "158156297fda678964382f5fb0899b185993265bb1b1786be569655a8f157169",
+      "type": "quantitative",
+      "script_path": "src/plot_fig2_repaired_performance.py",
+      "script_sha256": "baee9274d5afdbb7fc9c2125150fa9b8e3201869bd95b2b795c4a2c6731f8ee6"
     },
     {
-      "path": "paper/figures_batch/Fig3_cell_batch_strata.pdf",
-      "sha256": "480b850f1500b4e7ed326a37546cce4c96287033f187e31670209d2988262f20"
+      "name": "Figure3",
+      "figure_path": "figures/Fig3_cell_batch_strata.pdf",
+      "figure_sha256": "480b850f1500b4e7ed326a37546cce4c96287033f187e31670209d2988262f20",
+      "type": "quantitative",
+      "script_path": "src/plot_fig3_repaired.py",
+      "script_sha256": "bc406d6a83e2e0a83985fd2e9003db1cf43475b6527eb7493e71d3cf2827ef0d"
     },
     {
-      "path": "paper/figures_batch/Fig4_cell_batch_ablation_repaired.pdf",
-      "sha256": "8692bbd3f8fb8c261097679cede801fd7e4052c7f7a17bcf8b516c7996353d43"
+      "name": "Figure4",
+      "figure_path": "figures/Fig4_cell_batch_ablation_repaired.pdf",
+      "figure_sha256": "8692bbd3f8fb8c261097679cede801fd7e4052c7f7a17bcf8b516c7996353d43",
+      "type": "quantitative",
+      "script_path": "src/plot_fig4_repaired_ablation.py",
+      "script_sha256": "350503aeba42e9a46182f61e81fc69f8c4c61c1799fddf8ebb710ba9a12565a9"
     },
     {
-      "path": "paper/figures_batch/Fig5_identity_cluster_uncertainty_repaired.pdf",
-      "sha256": "c5b0798edb97c233f8d7899e95926fec5fa50f255264bd8905c3a948266d1f62"
+      "name": "Figure5",
+      "figure_path": "figures/Fig5_identity_cluster_uncertainty_repaired.pdf",
+      "figure_sha256": "c5b0798edb97c233f8d7899e95926fec5fa50f255264bd8905c3a948266d1f62",
+      "type": "native image2 concept plus quantitative",
+      "script_path": "src/plot_fig5_uncertainty_upgrade.py",
+      "script_sha256": "c3d22593627e208b5fc64d86f9fa79d7da278b70c980258ea4bfc9b017001fea",
+      "image2_provenance": "image2/image2_Fig5_A_generation_20261006_v4.jsonl"
     },
     {
-      "path": "paper/figures_batch/Fig6_intervention_priority.pdf",
-      "sha256": "16a396775433fa1931de1aed586fc2e9c02d84d96c1206a787c8c7970c7fb1f3"
+      "name": "Figure6",
+      "figure_path": "figures/Fig6_intervention_priority.pdf",
+      "figure_sha256": "16a396775433fa1931de1aed586fc2e9c02d84d96c1206a787c8c7970c7fb1f3",
+      "type": "quantitative retrospective ranking diagnostic",
+      "script_path": "src/plot_intervention_priority_locked.py",
+      "script_sha256": "248f8262199dc3004b73515fc8a1e84f35ad3ae1facfab1636715db2d021b660"
     }
   ],
   "image2": [
     {
       "path": "figures/ai_generated/Fig1_model_mechanism_round4.png",
       "sha256": "072dae166e69d5a099a921278089f574ee74c0d93cf8a94bf6c411e12a6b8b85",
-      "provenance": "experiments/image2_fig1_generation_20261006_round4.json"
+      "png_header": "89504e470d0a1a0a",
+      "provenance": "image2/image2_fig1_generation_20261006_round4.json"
     },
     {
       "path": "figures/ai_generated/Fig5_A_identity_cluster_concept_v4_upsampled.png",
       "sha256": "c70f91878db62bab9c2af72c3e739ecce88cf63ad4a0d226d3a32a1b5b8073c6",
-      "provenance": "experiments/image2_Fig5_A_generation_20261006_v4.jsonl"
+      "png_header": "89504e470d0a1a0a",
+      "provenance": "image2/image2_Fig5_A_generation_20261006_v4.jsonl"
     }
   ],
   "audits": {
-    "width_visual": "experiments/final_width_visual_audit_20261007.json",
-    "matched_nonlinear": "experiments/matched_nonlinear_invalid_implementation_audit.json",
-    "corrected_protocol": "experiments/matched_nonlinear_corrected_protocol_20261007.md",
-    "matched_nonlinear_job": "experiments/matched_nonlinear_4090_job_record_20261006.json",
-    "matched_nonlinear_result": "results/matched_nonlinear_validation_corrected.json",
-    "matched_nonlinear_summary": "results/matched_nonlinear_validation_summary.json",
-    "matched_nonlinear_protocol": "experiments/matched_nonlinear_corrected_protocol_20261007.md",
-    "job_record": "experiments/matched_nonlinear_4090_job_record_20261006.json",
-    "release_metadata": "provenance/release_metadata.json",
-    "figure_source_current": "experiments/figure_source_audit_v1110.json"
+    "numeric": "provenance/manuscript_numeric_audit_retry3_integration.json",
+    "width_visual": "provenance/final_width_visual_audit_retry3_integration.json",
+    "figure_source": "provenance/figure_source_audit_v119.json",
+    "retry3_result_audit": "provenance/matched_nonlinear_corrected_locked_confirmation_retry3_final_audit.json"
   },
   "supersedes": [
-    "experiments/figure_source_audit.json",
-    "experiments/final_round10_audit.json",
-    "experiments/final_pre_reviewer_check.json",
-    "experiments/post_correction_audit_20261007.json",
-    "experiments/final_visual_audit_20261006.json",
-    "experiments/final_release_audit_20261006.json",
-    "experiments/final_artifact_sha256.txt",
-    "experiments/final_pre_reviewer_check_20261006.json",
-    "experiments/final_pre_reviewer_check_round10.json",
-    "experiments/figure_source_audit_round10.json",
-    "experiments/final_visual_audit_round10.json",
-    "experiments/release_readme_followup_20261008.md"
-  ],
-  "release_tag": "v1.1.10",
-  "release_url": "https://github.com/jinluo12345/norman-perturbseq-identity-ridge/releases/tag/v1.1.10",
-  "scripts": {
-    "matched_nonlinear_validation": "src/matched_nonlinear_validation_corrected.py",
-    "matched_nonlinear_summary": "src/summarize_matched_nonlinear_validation.py",
-    "supplementary_source": "paper/supplementary_matched_nonlinear.tex"
-  }
+    "v1.1.10",
+    "provenance/current_artifact_manifest_20261007.json",
+    "provenance/figure_source_audit_v1110.json"
+  ]
 }

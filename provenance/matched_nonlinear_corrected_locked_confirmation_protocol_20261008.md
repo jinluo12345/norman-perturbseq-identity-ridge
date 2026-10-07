@@ -1,0 +1,17 @@
+# Corrected locked confirmation protocol for matched nonlinear baseline (2026-10-08)
+
+The validation-only screen completed without looking at locked test responses. This confirmation evaluates the preselected nonlinear configuration once on the five locked identity-held-out partitions.
+
+For each split, the nonlinear family, training seed, and best epoch are copied exactly from the minimum validation cell-level RMSE entry in `matched_nonlinear_validation_corrected.json` among the two preregistered families and three training seeds. The ridge alpha is copied from that file. No test metric is used to choose architecture, epoch, seed, alpha, normalization or identity partition. Models are fit once on the prespecified training identities and CONTROL rows only (including their observed identity-by-gemgroup group rows) and evaluated on the untouched test identities. The input remains exactly 878 dimensions (512 frozen panel genes, 256 pathway scores, 102 active components, 8 gemgroup indicators) and output exactly 512 panel genes.
+
+Targets use the same pre-registered CONTROL/source-row-parity control reference as the validation screen. Training-only means and standard deviations are used for scaling; test responses are read only at the final scoring step. The nonlinear optimizer and architecture are unchanged: AdamW, learning rate 1e-3, weight decay 1e-4, full-batch updates, GELU trunk `878-256-256-512`, with or without the preregistered 878-to-512 linear skip according to validation choice. Training runs for the locked validation-selected epoch, with no early-stop or test-based adjustment.
+
+Report aggregate cell-level RMSE, Pearson and Spearman; per-output (512-gene) RMSE, Pearson and Spearman arrays; and paired identity-cluster bootstrap intervals (B=2,000) for nonlinear minus ridge across the same test cells. Clusters are held-out perturbation identities. The confirmation is descriptive evidence for this Norman screen and does not establish biological replication, causal effects, clinical utility or cross-screen transfer. Negative or unstable test results are retained.
+
+This corrected confirmation deliberately uses the same training-only fit contract as the primary ridge. Validation responses are used only to select the preregistered family, training seed, epoch and ridge alpha; no confirmation response is read until the final scoring call. Training-constant feature columns are zeroed exactly as in the corrected validation run.
+
+Implementation amendment before worker start: the script now constructs only training targets before fitting; the held-out target is formed immediately before final confirmation metrics. The raw expression matrix is loaded once as an input requirement, but no held-out target is used for model selection, scaling, early stopping or checkpoint choice.
+
+Output-format amendment after first successful run: per-output Pearson/Spearman values are encoded as JSON null when either the target or prediction is constant; aggregate cell-level metrics remain unchanged. The pre-amendment result is retained as `matched_nonlinear_corrected_locked_confirmation_raw_nan.json` for audit traceability.
+
+Retry3 output-format amendment: near-constant columns are detected by a peak-to-peak range threshold of 1e-12, and any non-finite Pearson or Spearman statistic returned by SciPy is encoded as JSON null. This only changes serialization of undefined per-output correlations; aggregate metrics, model selection, predictions, bootstrap intervals and all scientific values are unchanged.

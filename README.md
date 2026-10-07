@@ -2,7 +2,7 @@
 
 This release contains the exact processed inputs, numerical result objects, analysis scripts, figure assets, manuscript source, and native image2 provenance used for the manuscript **Prioritizing gene and combination assays in the Norman–Weissman K562 Perturb-seq screen**.
 
-The scientific estimand is deliberately bounded: identity-held-out prediction of a 512-gene control-relative response in the Norman–Weissman K562 screen, conditional on observed gemgroup metadata. The retrospective top-*k* analysis is a validation-only ranking simulation. The release does not claim causal pathway activation, unseen-batch transfer, clinical benefit, or prospective assay success.
+The scientific estimand is deliberately bounded: identity-held-out prediction of a 512-gene control-relative response in the Norman–Weissman K562 screen, conditional on observed gemgroup metadata. The retrospective top-*k* analysis is a retrospective ranking diagnostic. The release does not claim causal pathway activation, unseen-batch transfer, clinical benefit, or prospective assay success.
 
 ## Source data
 
@@ -33,14 +33,19 @@ python src/plot_intervention_priority_locked.py
 
 The scripts read only the released `results/` objects and the native image2 panel in `figures/`. Rebuilding the complete processed panel from raw h5ad requires the public GSE133344 source and the preprocessing contract documented in `manuscript/main.tex`; the released processed arrays are the frozen inputs used for the reported analysis.
 
-The manuscript is compiled from `manuscript/main.tex` after placing the released figures under the relative paths expected by the source. The release audits record the PDF hash and figure/source checksums.
+The manuscript is compiled directly from `manuscript/main.tex`; manuscript-local figure and supplementary-source copies are included under `manuscript/`. The release audits record the PDF hash and figure/source checksums.
 
-The versioned archive URL for this release is https://github.com/jinluo12345/norman-perturbseq-identity-ridge/tree/v1.1.10. The repository commit history and `provenance/release_manifest.sha256` provide the immutable version and file-integrity record.
+The versioned archive URL for this release is https://github.com/jinluo12345/norman-perturbseq-identity-ridge/tree/v1.1.11. The repository commit history and `provenance/release_manifest.sha256` provide the immutable version and file-integrity record.
 
 ## License and citation
 
 Code is released under the MIT License; derived arrays, figures and manuscript text are released under CC BY 4.0. Please cite the manuscript and the Norman–Weissman source study when reusing this release.
 
-## v1.1.10 corrected validation and provenance release
+## v1.1.11 corrected validation and provenance release
 
-This release supersedes v1.1.7 and contains the 22-page manuscript, locked 27-combination evaluation, and corrected validation-only matched nonlinear comparator. The standard MLP comparator uses the exact 878-input/512-target contract but fails the all-split gate; it is retained as a validation diagnostic, not a confirmation claim. The displayed priority error bars are split standard deviations; paired identity-cluster B=2,000 sensitivity intervals and common draw hashes are in `results/intervention_priority_bootstrap_supplement.json`. Historical audit records are retained for provenance and explicitly superseded by `provenance/current_artifact_manifest_20261007.json`.
+This release supersedes v1.1.7 and contains the 22-page manuscript, retrospective 27-combination ranking diagnostic, and corrected validation-only matched nonlinear comparator. The standard MLP comparator uses the exact 878-input/512-target contract but fails the all-split gate; it is retained as a validation diagnostic, not a confirmation claim. The displayed priority error bars are split standard deviations; paired identity-cluster B=2,000 sensitivity intervals and common draw hashes are in `results/intervention_priority_bootstrap_supplement.json`. Historical audit records are retained for provenance and explicitly superseded by `provenance/current_artifact_manifest_20261007.json`.
+
+
+## v1.1.11 retry3 integrated artifact
+
+This immutable release contains the exact retry3 manuscript and PDF, the corrected post-exposure nonlinear confirmation reanalysis, its protocol and script, continuous Supplementary Tables 1--3, regenerated figure-source and numeric audits, and sanitized native image2 provenance. The nonlinear reanalysis is descriptive because an earlier invalid implementation had exposed the confirmation responses; the validation-only comparator remains the clean model-selection evidence. The priority analysis is a retrospective ranking diagnostic with a hit set defined by locked observed response energy; prospective assay utility and assay reduction were not tested.

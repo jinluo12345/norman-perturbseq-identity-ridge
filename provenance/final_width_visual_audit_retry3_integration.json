@@ -1,0 +1,32 @@
+{
+  "audit": "retry3 final width and reader audit",
+  "pdf": "manuscript/main.pdf",
+  "pdf_sha256": "76de0573975c15e53ff7b1043ab913bfbf8cd34e75f2325b8a535bdaf2f0790b",
+  "pages": 22,
+  "checks": {
+    "supplementary_tables_readable": true,
+    "table_width_within_text_block": true,
+    "caption_adjacent": true,
+    "no_clipping_or_overlap": true,
+    "reader_visible_internal_paths_absent": true,
+    "latex_clean": true,
+    "existing_figures_unchanged": true,
+    "concept_panels_image2_provenance_unchanged": true,
+    "figure1_native_png_header_valid": true
+  },
+  "image2": [
+    {
+      "path": "figures/ai_generated/Fig1_model_mechanism_round4.png",
+      "sha256": "072dae166e69d5a099a921278089f574ee74c0d93cf8a94bf6c411e12a6b8b85",
+      "png_header": "89504e470d0a1a0a",
+      "native_provenance": true
+    },
+    {
+      "path": "figures/ai_generated/Fig5_A_identity_cluster_concept_v4_upsampled.png",
+      "sha256": "c70f91878db62bab9c2af72c3e739ecce88cf63ad4a0d226d3a32a1b5b8073c6",
+      "png_header": "89504e470d0a1a0a",
+      "native_provenance": true
+    }
+  ],
+  "status": "PASS"
+}

@@ -1,4 +1,4 @@
-\begin{table}[ht]\centering\scriptsize\caption{Supplementary Table 4. Validation-only matched nonlinear comparator under the frozen 878-input, 512-target contract. Each row is one identity split and optimization seed; no confirmation responses were scored. Values are cell-level validation metrics after raw-RMSE checkpoint selection.}\label{tab:matched_nonlinear}\begin{tabular}{rrlrrrrr}\toprule Split & Train seed & Family & RMSE & Pearson & Spearman & Best epoch & Parameters \\ \midrule
+\begin{table}[ht]\centering\scriptsize\caption{Supplementary Table 2. Validation-only matched nonlinear comparator under the frozen 878-input, 512-target contract. Each row is one identity split and optimization seed; no confirmation responses were scored. Values are cell-level validation metrics after raw-RMSE checkpoint selection. This validation-only screen is the clean model-selection evidence.}\label{tab:matched_nonlinear}\begin{tabular}{rrlrrrrr}\toprule Split & Train seed & Family & RMSE & Pearson & Spearman & Best epoch & Parameters \\ \midrule
 11 & 101 & mlp & 0.31971 & 0.15456 & 0.11223 & 62 & 422,400 \\
 11 & 202 & mlp & 0.31974 & 0.15409 & 0.11277 & 61 & 422,400 \\
 11 & 303 & mlp & 0.31974 & 0.15440 & 0.11132 & 60 & 422,400 \\
@@ -30,3 +30,11 @@
 55 & 202 & mlp linear skip & 0.32971 & 0.17207 & 0.12428 & 46 & 871,936 \\
 55 & 303 & mlp linear skip & 0.32968 & 0.17260 & 0.12484 & 50 & 871,936 \\
 \bottomrule\end{tabular}\end{table}
+
+\begin{table}[ht]\centering\scriptsize\caption{Supplementary Table 3. Corrected post-exposure confirmation reanalysis of the validation-selected matched MLP. An earlier invalid MLP implementation had already read these confirmation responses, so this reanalysis cannot restore an independent test lock. Each row uses the training seed and epoch selected by validation for that identity split, then scores the held-out confirmation identities once. Entries are nonlinear minus ridge point differences; brackets give paired identity-cluster percentile sensitivity intervals from 2,000 resamples. All intervals are descriptive and include no independent biological replicate.}\label{tab:matched_nonlinear_confirmation}\resizebox{\linewidth}{!}{\begin{tabular}{rrrccc}\toprule Split & Train seed & Epoch & $\Delta$RMSE [95\% interval] & $\Delta$Pearson [95\% interval] & $\Delta$Spearman [95\% interval] \\ \midrule
+11 & 101 & 62 & $-0.000230\ [-0.01386,\ 0.01322]$ & $+0.003131\ [-0.02996,\ 0.03762]$ & $+0.008843\ [-0.00301,\ 0.02016]$ \\
+22 & 303 & 61 & $-0.000361\ [-0.01007,\ 0.00906]$ & $+0.004636\ [-0.02772,\ 0.03523]$ & $+0.008972\ [-0.00062,\ 0.01826]$ \\
+33 & 101 & 66 & $+0.000140\ [-0.00929,\ 0.00962]$ & $-0.001654\ [-0.02954,\ 0.02507]$ & $+0.000825\ [-0.01119,\ 0.01362]$ \\
+44 & 101 & 59 & $+0.000074\ [-0.01322,\ 0.01274]$ & $-0.000748\ [-0.03474,\ 0.03219]$ & $+0.005492\ [-0.00519,\ 0.01585]$ \\
+55 & 101 & 67 & $+0.000013\ [-0.01393,\ 0.01280]$ & $+0.000422\ [-0.03291,\ 0.03129]$ & $+0.001621\ [-0.00649,\ 0.00970]$ \\
+\bottomrule\end{tabular}}\end{table}

@@ -1,0 +1,118 @@
+{
+  "audit": "retry3_final",
+  "status": "job_succeeded",
+  "result_sha256": "740fd66fa44dc912ff1c1b924e7cf47038b33906060969b69d9944d9d9790c40",
+  "json_valid": true,
+  "choices_equal_raw_prior": true,
+  "aggregate_metrics_equal_raw_prior": true,
+  "per_output_null_count": 178,
+  "per_output_nan_count": 0,
+  "invalid_per_output_values": [],
+  "protocol_hash_result": "32aa6f085015728bad5a8b01e804e8d3e5263c75534d63107c5bf2e530318cd5",
+  "protocol_hash_current": "32aa6f085015728bad5a8b01e804e8d3e5263c75534d63107c5bf2e530318cd5",
+  "protocol_hash_matches_current": true,
+  "split_confirmation": [
+    {
+      "split_seed": 11,
+      "deltas": {
+        "rmse": -0.0002299123773057965,
+        "pearson": 0.0031313169627858184,
+        "spearman": 0.008842957898329118
+      },
+      "ci95_lower": [
+        -0.013858860260730538,
+        -0.029964827698928158,
+        -0.0030076722345605605
+      ],
+      "ci95_upper": [
+        0.013215617047279608,
+        0.037621113203066096,
+        0.02016239817019939
+      ],
+      "ci95_all_contain_zero": true,
+      "n_test_cells": 7895
+    },
+    {
+      "split_seed": 22,
+      "deltas": {
+        "rmse": -0.0003612230797470639,
+        "pearson": 0.004636087746748618,
+        "spearman": 0.008971826180632095
+      },
+      "ci95_lower": [
+        -0.010065611845009714,
+        -0.027724925722552196,
+        -0.0006236490536612959
+      ],
+      "ci95_upper": [
+        0.009064466720099543,
+        0.03523218939373825,
+        0.01826256184920195
+      ],
+      "ci95_all_contain_zero": true,
+      "n_test_cells": 9385
+    },
+    {
+      "split_seed": 33,
+      "deltas": {
+        "rmse": 0.00013960345229863114,
+        "pearson": -0.001653810359498492,
+        "spearman": 0.0008247224635756362
+      },
+      "ci95_lower": [
+        -0.009290449170003687,
+        -0.02953854700596436,
+        -0.011185390135590806
+      ],
+      "ci95_upper": [
+        0.009616647861871238,
+        0.025071620943119103,
+        0.013615444775314045
+      ],
+      "ci95_all_contain_zero": true,
+      "n_test_cells": 7832
+    },
+    {
+      "split_seed": 44,
+      "deltas": {
+        "rmse": 7.355449735274577e-05,
+        "pearson": -0.0007480930086641302,
+        "spearman": 0.005492335766508594
+      },
+      "ci95_lower": [
+        -0.013216258265074932,
+        -0.03473858156926179,
+        -0.005190028054131348
+      ],
+      "ci95_upper": [
+        0.01274163352806939,
+        0.03218804123549436,
+        0.015850992023178627
+      ],
+      "ci95_all_contain_zero": true,
+      "n_test_cells": 9326
+    },
+    {
+      "split_seed": 55,
+      "deltas": {
+        "rmse": 1.333734197483949e-05,
+        "pearson": 0.00042225323675429416,
+        "spearman": 0.001620706285060683
+      },
+      "ci95_lower": [
+        -0.013928936829196648,
+        -0.03290548354438518,
+        -0.00649412043241682
+      ],
+      "ci95_upper": [
+        0.012802238683119662,
+        0.03128583478063349,
+        0.009699506245957007
+      ],
+      "ci95_all_contain_zero": true,
+      "n_test_cells": 8278
+    }
+  ],
+  "scientific_conclusion": "Matched MLP does not pass all-split/all-metric superiority gate; split 11 and 22 point estimates favor nonlinear, 33 and 44 have RMSE/Pearson worse, 55 mixed; all paired identity-cluster intervals include zero.",
+  "public_note": "Private scheduler identifiers and execution metadata are omitted from this public audit copy."
+}

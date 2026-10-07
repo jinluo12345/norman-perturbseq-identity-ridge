@@ -1,16 +1,11 @@
 {
-  "jobId": "91ea9fbbf1424bd989c5011f7dd30376",
   "status": "completed",
   "nativeToolConfirmed": true,
   "error": null,
-  "outputPath": "/inspire/qb-ilm/project/exploration-topic/jinluozhijie-CZXS25210075/bio-paper-research/output/idea-036/workspace/figures/ai_generated/Fig1_model_mechanism_round4.png",
-  "runLogPath": null,
   "model": "gpt-image-2",
-  "modelProvider": "openai-compatible-image-api",
-  "cwd": "/inspire/qb-ilm/project/exploration-topic/jinluozhijie-CZXS25210075/bio-paper-research/output/idea-036/workspace",
-  "timeoutSeconds": 1800,
   "png_header_hex": "89504e470d0a1a0a",
   "png_header_valid": true,
   "sha256": "072dae166e69d5a099a921278089f574ee74c0d93cf8a94bf6c411e12a6b8b85",
-  "visual_review": "Accepted: all 512/256/102/8 labels are legible; identity split, training aggregation, frozen control centering, excluded endpoint fields, ridge fit, cell-level query and 512-gene output arrows are factually consistent at full resolution and final PDF scale."
+  "visual_review": "Accepted: all 512/256/102/8 labels are legible; identity split, training aggregation, frozen control centering, excluded endpoint fields, ridge fit, cell-level query and 512-gene output arrows are factually consistent at full resolution and final PDF scale.",
+  "outputPath": "figures/ai_generated/Fig1_model_mechanism_round4.png"
 }
