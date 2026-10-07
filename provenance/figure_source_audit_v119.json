@@ -1,8 +1,8 @@
 {
   "status": "current_authoritative_figure_source_audit",
-  "release_tag": "v1.1.12",
+  "release_tag": "v1.1.13",
   "audit_date": "2026-10-08",
-  "paper_pdf_sha256": "830c8543275750f960ef2ec271817e318fc465d54c936799d1265e85dae757c3",
+  "paper_pdf_sha256": "c89461da18ba8c044ce4bc93dd62d8a54248d98772b0fa83dde2873da95c0ff4",
   "paper_pdf_pages": 22,
   "figures": [
     {

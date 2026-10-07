@@ -1,7 +1,7 @@
 {
   "audit": "retry3 final width and reader audit",
   "pdf": "manuscript/main.pdf",
-  "pdf_sha256": "830c8543275750f960ef2ec271817e318fc465d54c936799d1265e85dae757c3",
+  "pdf_sha256": "c89461da18ba8c044ce4bc93dd62d8a54248d98772b0fa83dde2873da95c0ff4",
   "pages": 22,
   "checks": {
     "supplementary_tables_readable": true,

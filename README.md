@@ -35,17 +35,17 @@ The scripts read only the released `results/` objects and the native image2 pane
 
 The manuscript is compiled directly from `manuscript/main.tex`; manuscript-local figure and supplementary-source copies are included under `manuscript/`. The release audits record the PDF hash and figure/source checksums.
 
-The versioned archive URL for this release is https://github.com/jinluo12345/norman-perturbseq-identity-ridge/tree/v1.1.12. The repository commit history and `provenance/release_manifest.sha256` provide the immutable version and file-integrity record.
+The versioned archive URL for this release is https://github.com/jinluo12345/norman-perturbseq-identity-ridge/tree/v1.1.13. The repository commit history and `provenance/release_manifest.sha256` provide the immutable version and file-integrity record.
 
 ## License and citation
 
 Code is released under the MIT License; derived arrays, figures and manuscript text are released under CC BY 4.0. Please cite the manuscript and the Norman–Weissman source study when reusing this release.
 
-## v1.1.12 corrected validation and provenance release
+## v1.1.13 corrected validation and provenance release
 
 This release supersedes v1.1.7 and contains the 22-page manuscript, retrospective 27-combination ranking diagnostic, and corrected validation-only matched nonlinear comparator. The standard MLP comparator uses the exact 878-input/512-target contract but fails the all-split gate; it is retained as a validation diagnostic, not a confirmation claim. The displayed priority error bars are split standard deviations; paired identity-cluster B=2,000 sensitivity intervals and common draw hashes are in `results/intervention_priority_bootstrap_supplement.json`. Historical audit records are retained for provenance and explicitly superseded by `provenance/current_artifact_manifest_20261007.json`.
 
 
-## v1.1.12 retry3 integrated artifact
+## v1.1.13 retry3 integrated artifact
 
 This immutable release contains the exact retry3 manuscript and PDF, the corrected post-exposure nonlinear confirmation reanalysis, its protocol and script, continuous Supplementary Tables 1--3, regenerated figure-source and numeric audits, and sanitized native image2 provenance. The nonlinear reanalysis is descriptive because an earlier invalid implementation had exposed the confirmation responses; the validation-only comparator remains the clean model-selection evidence. The priority analysis is a retrospective ranking diagnostic with a hit set defined by locked observed response energy; prospective assay utility and assay reduction were not tested.

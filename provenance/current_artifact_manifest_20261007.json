@@ -2,16 +2,16 @@
   "status": "current_authoritative_public_manifest",
   "date": "2026-10-08",
   "scope": "Norman-Weissman K562 single-screen observed-gemgroup identity-held-out ridge with retrospective ranking diagnostic and corrected post-exposure nonlinear reanalysis",
-  "release_tag": "v1.1.12",
-  "release_url": "https://github.com/jinluo12345/norman-perturbseq-identity-ridge/releases/tag/v1.1.12",
+  "release_tag": "v1.1.13",
+  "release_url": "https://github.com/jinluo12345/norman-perturbseq-identity-ridge/releases/tag/v1.1.13",
   "paper": {
     "tex": {
       "path": "manuscript/main.tex",
-      "sha256": "713381b10a6e9f9fb59933aa9ce924d57babe29774f941df0e5e1b2aaa4788d1"
+      "sha256": "55857cf226ddb23b6e9bd61016a21b55246563e077376046cb8b360190f77ceb"
     },
     "pdf": {
       "path": "manuscript/main.pdf",
-      "sha256": "830c8543275750f960ef2ec271817e318fc465d54c936799d1265e85dae757c3",
+      "sha256": "c89461da18ba8c044ce4bc93dd62d8a54248d98772b0fa83dde2873da95c0ff4",
       "pages": 22
     }
   },
